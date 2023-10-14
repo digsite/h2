@@ -1,0 +1,993 @@
+;; RENAME - ELITE
+
+
+crouch pistol ready			=	combat pistol ready
+crouch pistol put-away			=	combat pistol put-away
+
+crouch support ready			=	combat support ready
+crouch support put-away			=	combat support put-away
+
+crouch rifle ready			=	combat rifle ready
+crouch rifle put-away			=	combat rifle put-away
+
+crouch sword ready			=	combat sword ready
+crouch sword put-away			=	combat sword put-away
+
+crouch support bs fire-1		=	combat support bs fire-1
+crouch support ds fire-1 var1		=	combat support ds fire-1 var1
+
+;; spectre_p
+
+;spectre_p_l any any throw-grenade	=	warthog_p any any throw-grenade
+spectre_p_r any any throw-grenade	=	warthog_p any any throw-grenade
+
+
+;; SCARAB Driver
+
+
+scarab_d_l any any idle var0	=	scarab_d_r any any idle var0
+scarab_d_r any any enter	=	scarab_d_r any any idle var0
+scarab_d_l any any enter	=	scarab_d_r any any idle var0
+scarab_d_l any any exit		=	scarab_d_r any any exit
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; COMBAT DIALOGUE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+			combat dual advance			=	combat pistol advance
+			combat dual brace			=	combat pistol brace
+			combat dual cheer			=	combat pistol cheer
+			combat dual fallback			=	combat pistol fallback
+			combat dual point			=	combat pistol taunt
+			combat dual shakefist			=	combat pistol shakefist
+			combat dual wave			=	combat pistol wave
+			combat dual taunt			=	combat pistol taunt
+			combat dual hold			=	combat pistol hold
+
+			combat rifle advance			=	combat pistol advance
+			combat rifle brace			=	combat pistol brace
+			combat rifle cheer			=	combat pistol cheer
+			combat rifle fallback			=	combat pistol fallback
+			combat rifle point			=	combat pistol taunt
+			combat rifle shakefist			=	combat pistol shakefist
+			combat rifle wave			=	combat pistol wave
+			combat rifle taunt			=	combat pistol taunt
+			combat rifle hold			=	combat pistol hold
+
+			combat sword advance			=	combat pistol advance
+			combat sword brace			=	combat pistol brace
+			combat sword cheer			=	combat pistol cheer
+			combat sword fallback			=	combat pistol fallback
+			combat sword point			=	combat pistol taunt
+			combat sword shakefist			=	combat pistol shakefist
+			combat sword wave			=	combat pistol wave
+			combat sword taunt			=	combat pistol taunt
+			combat sword hold			=	combat pistol hold
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; UNARMED ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch unarmed aim-move-up              =       crouch sword aim-move-up
+                        crouch unarmed aim-still-up             =       crouch sword aim-still-up
+                        crouch unarmed airborne                 =       crouch sword airborne
+                        crouch unarmed idle                     =       crouch sword idle
+                        crouch unarmed land-hard                =       crouch sword land-hard
+                        crouch unarmed land-soft                =       crouch sword land-soft
+                        crouch unarmed move-back                =       crouch sword move-back
+                        crouch unarmed move-front               =       crouch sword move-front
+                        crouch unarmed move-left                =       crouch sword move-left
+                        crouch unarmed move-right               =       crouch sword move-right
+                        crouch unarmed turn-left                =       crouch sword turn-left
+                        crouch unarmed turn-right               =       crouch sword turn-right
+                        crouch unarmed walk-back                =       crouch sword walk-back
+                        crouch unarmed walk-front               =       crouch sword walk-front
+                        crouch unarmed walk-left                =       crouch sword walk-left
+                        crouch unarmed walk-right               =       crouch sword walk-right
+                        crouch unarmed put-away                 =       combat sword put-away
+                        crouch unarmed ready                    =       combat sword ready
+                        crouch unarmed throw-grenade            =       combat sword throw-grenade 
+
+                ;; combat
+                        combat unarmed aim-move-up              =       combat sword aim-move-up
+                        combat unarmed aim-still-up             =       combat sword aim-still-up
+                        combat unarmed airborne                 =       combat sword airborne
+                        combat unarmed idle                     =       combat sword idle
+                        combat unarmed land-hard                =       combat sword land-hard
+                        combat unarmed land-soft                =       combat sword land-soft
+                        ;combat unarmed melee-strike-1           =       combat sword melee-strike-1
+                        ;combat unarmed melee-strike-2           =       combat sword melee-strike-2
+                        combat unarmed move-back                =       combat sword move-back
+                        combat unarmed move-front               =       combat sword move-front
+                        combat unarmed move-left                =       combat sword move-left
+                        combat unarmed move-right               =       combat sword move-right
+                        combat unarmed put-away                 =       combat sword put-away
+                        combat unarmed ready                    =       combat sword ready
+                        combat unarmed throw-grenade            =       combat sword throw-grenade 
+                        combat unarmed turn-left                =       combat sword turn-left
+                        combat unarmed turn-right               =       combat sword turn-right
+                        combat unarmed walk-back                =       combat sword walk-back
+                        combat unarmed walk-front               =       combat sword walk-front
+                        combat unarmed walk-left                =       combat sword walk-left
+                        combat unarmed walk-right               =       combat sword walk-right
+
+			combat unarmed berserk			=	combat pistol berserk
+
+                ;; warthog_p
+                        warthog_p unarmed acc-front-back        =       warthog_p acc-front-back
+                        warthog_p unarmed acc-left-right        =       warthog_p acc-left-right
+                        warthog_p unarmed acc-up-down           =       warthog_p acc-up-down
+                        warthog_p unarmed aim-still-up          =       warthog_p sword aim-still-up
+                        warthog_p unarmed idle                  =       warthog_p sword idle
+                        warthog_p unarmed enter                 =       warthog_p enter
+                        warthog_p unarmed exit                  =       warthog_p exit
+                        warthog_p unarmed put-away              =       combat sword put-away
+                        warthog_p unarmed ready                 =       combat sword ready
+			spectre_p_l pistol pp fire-2		=	combat pistol pp fire-2
+			spectre_p_l pistol pp overheating	=	combat pistol pp overheating
+			spectre_p_l pistol pp overheated	=	combat pistol pp overheated
+			spectre_p_l pistol pp o_h_exit		=	combat pistol pp o_h_exit
+			spectre_p_r pistol pp fire-2		=	combat pistol pp fire-2
+			spectre_p_r pistol pp overheating	=	combat pistol pp overheating
+			spectre_p_r pistol pp overheated	=	combat pistol pp overheated
+			spectre_p_r pistol pp o_h_exit		=	combat pistol pp o_h_exit
+
+
+
+
+
+;;Support DS melee
+
+combat support ds melee-strike-1 =	combat support bs melee-strike-1
+
+;;Dual Patrol
+
+patrol dual aim_move_up		=	patrol pistol aim_move_up
+patrol dual aim_still_up	=	patrol pistol aim_still_up
+patrol dual airborne		=	patrol pistol airborne
+patrol dual idle		=	patrol pistol idle
+patrol dual kick		=	patrol pistol kick
+patrol dual move_front		=	patrol pistol move_front
+patrol dual posing var0		=	patrol pistol posing var0
+patrol dual turn_left		=	patrol pistol turn_left
+patrol dual turn_right		=	patrol pistol turn_right
+
+;;Support Patrol
+
+patrol support airborne		= 	patrol rifle airborne
+patrol support idle		= 	patrol rifle idle
+patrol support kick		= 	patrol rifle kick
+patrol support move-front	= 	patrol rifle move-front
+patrol support posing var1	= 	patrol rifle posing var1
+patrol support turn-left	= 	patrol rifle turn-left
+patrol support turn-right	= 	patrol rifle turn-right
+
+;;Turret MP
+
+c_turret_mp_d enter		=	h_turret_mp_d enter
+c_turret_mp_d exit		=	h_turret_mp_d exit
+c_turret_mp_d aim-still-up	=	h_turret_mp_d aim-still-up
+c_turret_mp_d fire-1		=	h_turret_mp_d fire-1
+c_turret_mp_d idle		=	h_turret_mp_d idle
+
+;;Vehicle Idles
+
+spectre_p_l rifle aim-still-up	=	spectre_p_l aim-still-up
+spectre_p_l rifle fire-1	=	combat rifle fire-1
+spectre_p_l rifle idle		=	spectre_p_l pistol idle
+
+spectre_p_l pistol fire-1	=	combat pistol pp fire-1
+spectre_p_l missile fire-1	=	combat missile fire-1
+
+spectre_p_r ball aim-still-up	=	spectre_p_r aim-still-up
+spectre_p_r ball idle		=	spectre_p_r pistol idle
+spectre_p_r sword aim-still-up	=	spectre_p_r flag aim-still-up
+spectre_p_r sword idle		=	spectre_p_r flag idle
+spectre_p_l sword idle		=	spectre_p_l pistol idle
+spectre_p_r missile fire-1	=	combat missile fire-1
+spectre_p_r pistol fire-1	=	combat pistol pp fire-1
+spectre_p_r rifle aim-still-up	=	spectre_p_r aim-still-up
+spectre_p_r rifle fire-1	=	combat rifle fire-1
+spectre_p_r rifle idle		=	spectre_p_r pistol idle
+spectre_p_l support fire-1	=	combat support fire-1
+spectre_p_r support fire-1	=	combat support fire-1
+
+panic any idle			=	panic pistol idle
+panic any turn-left		=	panic pistol turn-left
+panic any turn-right		=	panic pistol turn-right
+panic any move-front		=	panic pistol move-front
+
+
+
+s-ping back head var0		=	s-ping back gut var0
+s-ping front head var0		=	s-ping front gut var0
+s-ping left head var0		=	s-ping left gut var0
+s-ping right head var0		=	s-ping right gut var0
+
+
+mongoose_d any idle		=	mongoose_d unarmed idle
+scorpion_d any idle		=	scorpion_d unarmed idle
+warthog_d any idle		=	warthog_d unarmed idle
+
+warthog_p pistol hp fire-1	=	combat pistol pp fire-1
+warthog_p pistol pp fire-1	=	combat pistol pp fire-1
+warthog_p pistol pp fire-2	=	combat pistol pp fire-2
+warthog_p pistol ne fire-1	=	combat pistol pp fire-1
+warthog_p pistol pr fire-1	=	combat pistol pp fire-1
+warthog_p rifle br fire-1	=	combat rifle fire-1
+warthog_p rifle br fire-2	=	combat rifle fire-2
+warthog_p rifle sr fire-1	=	combat rifle fire-1
+warthog_p rifle sg fire-1	=	combat rifle sg fire-1
+warthog_p rifle csr fire-1	=	combat rifle fire-1
+warthog_p pistol smg fire-1	=	combat pistol pp fire-1
+warthog_p missile fire-1	=	combat missile fire-1
+warthog_p support fire-1	=	combat support fire-1
+
+warthog_p missile reload-1	=	combat missile reload-1
+warthog_p pistol ne reload-1	=	combat pistol ne reload-1
+warthog_p pistol pr overheating	=	combat pistol overheating
+warthog_p pistol pr overheated	=	combat pistol overheated
+warthog_p pistol pr o_h_exit	=	combat pistol o_h_exit
+warthog_p rifle reload-1	=	combat rifle reload-1
+warthog_p pistol hp reload-1	=	combat pistol hp reload-1
+warthog_p rifle sg reload-1	=	combat rifle sg reload-1
+warthog_p rifle sr reload-1	=	combat rifle sr reload-1
+warthog_p pistol smg reload-1	=	combat pistol smg reload-1
+warthog_p support reload-1	=	combat support reload-1
+
+warthog_p pistol overheating	=	combat pistol overheating
+warthog_p pistol overheated	=	combat pistol overheated
+warthog_p pistol o_h_exit	=	combat pistol o_h_exit
+warthog_p pistol pp overheated	=	combat pistol overheated
+warthog_p pistol pp o_h_exit	=	combat pistol o_h_exit
+
+combat pistol hp fire-1		=	combat pistol pp fire-1
+crouch pistol hp fire-1		=	combat pistol pp fire-1
+crouch pistol hp reload-1	=	combat pistol hp reload-1
+
+crouch missile ready		=	combat missile ready
+crouch missile put-away		=	combat missile put-away
+
+crouch missile reload-1		=	combat missile reload-1
+crouch pistol ne reload-1	=	combat pistol ne reload-1
+crouch rifle reload-1		=	combat rifle reload-1
+crouch rifle sg reload-1	=	combat rifle sg reload-1
+crouch rifle sr reload-1	=	combat rifle sr reload-1
+crouch pistol smg reload-1	=	combat pistol smg reload-1
+crouch support reload-1		=	combat support reload-1
+
+crouch dual overheating		=	combat dual overheating
+crouch dual overheated		=	combat dual overheated
+crouch dual o_h_exit		=	combat dual o_h_exit
+crouch pistol overheating	=	combat pistol overheating
+crouch pistol overheated	=	combat pistol overheated
+crouch pistol o_h_exit		=	combat pistol o_h_exit
+crouch dual overheating-left	=	combat dual overheating-left
+crouch dual overheated-left	=	combat dual overheated-left
+crouch dual o_h_exit-left	=	combat dual o_h_exit-left
+
+crouch pistol pp o_h_exit	=	combat pistol o_h_exit
+crouch pistol pp overheated	=	combat pistol overheated
+crouch dual pp o_h_exit		=	combat dual pp o_h_exit
+crouch dual pp overheated	= 	combat dual pp overheated
+crouch dual pp o_h_exit-left	=	combat dual pp o_h_exit-left
+crouch dual pp overheated-left	= 	combat dual pp overheated-left
+
+combat dual hp fire-1 var1	=	combat dual fire-1 var1
+combat dual hp fire-1-left var1	=	combat dual fire-1-left var1
+crouch dual hp fire-1 var1	=	combat dual fire-1 var1
+crouch dual hp fire-1-left var1	=	combat dual fire-1-left var1
+crouch dual hp reload-1		=	combat dual hp reload-1
+crouch dual hp reload-1-left	=	combat dual hp reload-1-left
+crouch dual any fire-1 var1	=	combat dual fire-1 var1
+crouch dual any fire-1-left var1	=	combat dual fire-1-left var1
+
+crouch dual ne reload-1		=	combat dual ne reload-1
+crouch dual ne reload-1-left	=	combat dual ne reload-1-left
+crouch dual smg reload-1	=	combat dual smg reload-1
+crouch dual smg reload-1-left	=	combat dual smg reload-1-left
+
+combat pistol pp overheating		=	combat pistol overheated
+combat dual pp overheating		=	combat dual pp overheated
+combat dual pp overheating-left		=	combat dual pp overheated-left
+crouch dual pp overheating		=	combat dual pp overheated
+crouch dual pp overheating-left		=	combat dual pp overheated-left
+crouch pistol pp overheating		=	combat pistol overheated
+warthog_p pistol pp overheating		=	combat pistol overheated
+scorpion_p_lf pistol pp overheating	=	combat pistol overheated
+scorpion_p_lb pistol pp overheating	=	combat pistol overheated
+scorpion_p_rf pistol pp overheating	=	combat pistol overheated
+scorpion_p_rb pistol pp overheating	=	combat pistol overheated
+
+
+warthog_d aim-still-down		=	warthog_d aim-still-up
+warthog_p pistol aim-still-down		=	warthog_p pistol aim-still-up
+warthog_p rifle aim-still-up		=	warthog_p pistol aim-still-up
+warthog_p rifle aim-still-down		=	warthog_p pistol aim-still-up
+
+
+warthog_p any ready			=	combat pistol ready
+warthog_p any put-away			=	combat pistol put-away
+warthog_p support ready			=	combat support ready
+warthog_p support put-away		=	combat support put-away
+
+scorpion_p_lf unarmed aim-still-up		=	scorpion_p_lf pistol aim-still-up
+scorpion_p_lf unarmed aim-still-down		=	scorpion_p_lf pistol aim-still-up
+scorpion_p_lb unarmed aim-still-up		=	scorpion_p_lf pistol aim-still-up
+scorpion_p_lb unarmed aim-still-down		=	scorpion_p_lf pistol aim-still-up
+scorpion_p_rf unarmed aim-still-up		=	scorpion_p_lf pistol aim-still-up
+scorpion_p_rf unarmed aim-still-down		=	scorpion_p_lf pistol aim-still-up
+scorpion_p_rb unarmed aim-still-up		=	scorpion_p_lf pistol aim-still-up
+scorpion_p_rb unarmed aim-still-down		=	scorpion_p_lf pistol aim-still-up
+
+scorpion_p_lf support aim-still-down		=	scorpion_p_lf support aim-still-up
+scorpion_p_lb support aim-still-up		=	scorpion_p_lf support aim-still-up
+scorpion_p_lb support aim-still-down		=	scorpion_p_lf support aim-still-up
+scorpion_p_rf support aim-still-up		=	scorpion_p_lf support aim-still-up
+scorpion_p_rf support aim-still-down		=	scorpion_p_lf support aim-still-up
+scorpion_p_rb support aim-still-up		=	scorpion_p_lf support aim-still-up
+scorpion_p_rb support aim-still-down		=	scorpion_p_lf support aim-still-up
+
+scorpion_p_lb support idle			=	scorpion_p_lf support idle
+scorpion_p_rf support idle			=	scorpion_p_lf support idle
+scorpion_p_rb support idle			=	scorpion_p_lf support idle
+
+scorpion_p_lf pistol any aim-still-down		=	scorpion_p_lf pistol aim-still-up
+scorpion_p_lb pistol any aim-still-up		=	scorpion_p_lf pistol aim-still-up
+scorpion_p_rf pistol any aim-still-up		=	scorpion_p_lf pistol aim-still-up
+scorpion_p_rb pistol any aim-still-up		=	scorpion_p_lf pistol aim-still-up
+
+scorpion_p_lf rifle any aim-still-up		=	scorpion_p_lf pistol aim-still-up
+scorpion_p_lb rifle any aim-still-up		=	scorpion_p_lf pistol aim-still-up
+scorpion_p_rf rifle any aim-still-up		=	scorpion_p_lf pistol aim-still-up
+scorpion_p_rb rifle any aim-still-up		=	scorpion_p_lf pistol aim-still-up
+
+scorpion_p_lb flag aim-still-up		=	scorpion_p_lf flag aim-still-up
+scorpion_p_rf flag aim-still-up		=	scorpion_p_lf flag aim-still-up
+scorpion_p_rb flag aim-still-up		=	scorpion_p_lf flag aim-still-up
+
+scorpion_p_lb flag idle			=	scorpion_p_lf flag idle
+scorpion_p_rf flag idle			=	scorpion_p_lf flag idle
+scorpion_p_rb flag idle			=	scorpion_p_lf flag idle
+
+scorpion_p_lb missile aim-still-up	=	scorpion_p_lf missile aim-still-up
+scorpion_p_rf missile aim-still-up	=	scorpion_p_lf missile aim-still-up
+scorpion_p_rb missile aim-still-up	=	scorpion_p_lf missile aim-still-up
+
+scorpion_p_lb acc-front-back		=	scorpion_p_lf acc-front-back
+scorpion_p_rf acc-front-back		=	scorpion_p_lf acc-front-back
+scorpion_p_rb acc-front-back		=	scorpion_p_lf acc-front-back
+
+scorpion_p_lb acc-left-right		=	scorpion_p_lf acc-left-right
+scorpion_p_rf acc-left-right		=	scorpion_p_lf acc-left-right
+scorpion_p_rb acc-left-right		=	scorpion_p_lf acc-left-right
+
+scorpion_p_lb acc-up-down		=	scorpion_p_lf acc-up-down
+scorpion_p_rf acc-up-down		=	scorpion_p_lf acc-up-down
+scorpion_p_rb acc-up-down		=	scorpion_p_lf acc-up-down
+
+;scorpion_p_lf pistol any idle 		= 	scorpion_p_lf pistol idle
+scorpion_p_lb pistol any idle 		= 	scorpion_p_lf pistol idle
+scorpion_p_rf pistol any idle 		= 	scorpion_p_lf pistol idle
+scorpion_p_rb pistol any idle 		= 	scorpion_p_lf pistol idle
+scorpion_p_lf rifle any idle 		= 	scorpion_p_lf pistol idle
+scorpion_p_lb rifle any idle 		= 	scorpion_p_lf pistol idle
+scorpion_p_rf rifle any idle 		= 	scorpion_p_lf pistol idle
+scorpion_p_rb rifle any idle 		= 	scorpion_p_lf pistol idle
+
+scorpion_p_lb missile idle		=	scorpion_p_lf missile idle
+scorpion_p_rf missile idle		=	scorpion_p_lf missile idle
+scorpion_p_rb missile idle		=	scorpion_p_lf missile idle
+
+scorpion_p_lf unarmed idle 		= 	scorpion_p_lf pistol idle
+scorpion_p_lb unarmed idle 		= 	scorpion_p_lf pistol idle
+scorpion_p_rf unarmed idle 		= 	scorpion_p_lf pistol idle
+scorpion_p_rb unarmed idle 		= 	scorpion_p_lf pistol idle
+
+scorpion_p_lf pistol pp fire-1		=	combat pistol pp fire-1
+scorpion_p_lf pistol pr fire-1		=	combat pistol pp fire-1
+scorpion_p_lf pistol ne fire-1		=	combat pistol pp fire-1
+scorpion_p_lf pistol hp fire-1		=	combat pistol pp fire-1
+scorpion_p_lb pistol pp fire-1		=	combat pistol pp fire-1
+scorpion_p_lb pistol pr fire-1		=	combat pistol pp fire-1
+scorpion_p_lb pistol ne fire-1		=	combat pistol pp fire-1
+scorpion_p_lb pistol hp fire-1		=	combat pistol pp fire-1
+scorpion_p_rf pistol pp fire-1		=	combat pistol pp fire-1
+scorpion_p_rf pistol pr fire-1		=	combat pistol pp fire-1
+scorpion_p_rf pistol ne fire-1		=	combat pistol pp fire-1
+scorpion_p_rf pistol hp fire-1		=	combat pistol pp fire-1
+scorpion_p_rb pistol pp fire-1		=	combat pistol pp fire-1
+scorpion_p_rb pistol pr fire-1		=	combat pistol pp fire-1
+scorpion_p_rb pistol ne fire-1		=	combat pistol pp fire-1
+scorpion_p_rb pistol hp fire-1		=	combat pistol pp fire-1
+
+
+scorpion_p_lf pistol pp fire-2 		= 	combat pistol pp fire-2
+scorpion_p_lb pistol pp fire-2  	= 	combat pistol pp fire-2
+scorpion_p_rf pistol pp fire-2  	= 	combat pistol pp fire-2
+scorpion_p_rb pistol pp fire-2 		= 	combat pistol pp fire-2
+
+
+scorpion_p_lf pistol hp reload-1 	= 	combat pistol hp reload-1
+scorpion_p_lb pistol hp reload-1 	= 	combat pistol hp reload-1
+scorpion_p_rf pistol hp reload-1 	= 	combat pistol hp reload-1
+scorpion_p_rb pistol hp reload-1 	= 	combat pistol hp reload-1
+
+
+scorpion_p_lf rifle br fire-1		=	combat rifle fire-1
+scorpion_p_lf rifle br fire-2		=	combat rifle fire-2
+scorpion_p_lf rifle sr fire-1		=	combat rifle fire-1
+scorpion_p_lf rifle sg fire-1		=	combat rifle sg fire-1
+scorpion_p_lf missile fire-1		=	combat missile fire-1
+scorpion_p_lf rifle csr fire-1		=	combat rifle fire-1
+scorpion_p_lf pistol smg fire-1		=	combat pistol pp fire-1
+scorpion_p_lb rifle br fire-1		=	combat rifle fire-1
+scorpion_p_lb rifle br fire-2		=	combat rifle fire-2
+scorpion_p_lb rifle sr fire-1		=	combat rifle fire-1
+scorpion_p_lb rifle sg fire-1		=	combat rifle sg fire-1
+scorpion_p_lb rifle csr fire-1		=	combat rifle fire-1
+scorpion_p_lb pistol smg fire-1		=	combat pistol pp fire-1
+scorpion_p_lb missile fire-1		=	combat missile fire-1
+scorpion_p_rf rifle br fire-1		=	combat rifle fire-1
+scorpion_p_rf rifle br fire-2		=	combat rifle fire-2
+scorpion_p_rf rifle sr fire-1		=	combat rifle fire-1
+scorpion_p_rf rifle sg fire-1		=	combat rifle sg fire-1
+scorpion_p_rf rifle csr fire-1		=	combat rifle fire-1
+scorpion_p_rf pistol smg fire-1		=	combat pistol pp fire-1
+scorpion_p_rf missile fire-1		=	combat missile fire-1
+scorpion_p_rb rifle br fire-1		=	combat rifle fire-1
+scorpion_p_rb rifle br fire-2		=	combat rifle fire-2
+scorpion_p_rb rifle sr fire-1		=	combat rifle fire-1
+scorpion_p_rb rifle sg fire-1		=	combat rifle sg fire-1
+scorpion_p_rb rifle csr fire-1		=	combat rifle fire-1
+scorpion_p_rb pistol smg fire-1		=	combat pistol pp fire-1
+scorpion_p_rb missile fire-1		=	combat missile fire-1
+scorpion_p_lf support fire-1		=	combat support fire-1
+scorpion_p_lb support fire-1		=	combat support fire-1
+scorpion_p_rf support fire-1		=	combat support fire-1
+scorpion_p_rb support fire-1		=	combat support fire-1
+
+scorpion_p_lf support reload-1		=	combat support reload-1
+scorpion_p_lb support reload-1		=	combat support reload-1
+scorpion_p_rf support reload-1		=	combat support reload-1
+scorpion_p_rb support reload-1		=	combat support reload-1
+
+scorpion_p_lf missile reload-1		=	combat missile reload-1
+scorpion_p_lf pistol ne reload-1	=	combat pistol ne reload-1
+scorpion_p_lf pistol pr overheating	=	combat pistol overheating
+scorpion_p_lf pistol pr overheated	=	combat pistol overheated
+scorpion_p_lf pistol pr o_h_exit	=	combat pistol o_h_exit
+scorpion_p_lf pistol pp overheated	=	combat pistol overheated
+scorpion_p_lf pistol pp o_h_exit	=	combat pistol o_h_exit
+scorpion_p_lf pistol pr reload-1	=	combat pistol pr reload-1
+scorpion_p_lf rifle reload-1		=	combat rifle reload-1
+scorpion_p_lf rifle sg reload-1		=	combat rifle sg reload-1
+scorpion_p_lf rifle sr reload-1		=	combat rifle sr reload-1
+
+scorpion_p_lb missile reload-1		=	combat missile reload-1
+scorpion_p_lb pistol ne reload-1	=	combat pistol ne reload-1
+scorpion_p_lb pistol pr overheating	=	combat pistol overheating
+scorpion_p_lb pistol pr overheated	=	combat pistol overheated
+scorpion_p_lb pistol pr o_h_exit	=	combat pistol o_h_exit
+scorpion_p_lb pistol pp overheated	=	combat pistol overheated
+scorpion_p_lb pistol pp o_h_exit	=	combat pistol o_h_exit
+scorpion_p_lb pistol pr reload-1	=	combat pistol pr reload-1
+scorpion_p_lb rifle reload-1		=	combat rifle reload-1
+scorpion_p_lb rifle sg reload-1		=	combat rifle sg reload-1
+scorpion_p_lb rifle sr reload-1		=	combat rifle sr reload-1
+
+scorpion_p_rf missile reload-1		=	combat missile reload-1
+scorpion_p_rf pistol ne reload-1	=	combat pistol ne reload-1
+scorpion_p_rf pistol pr overheating	=	combat pistol overheating
+scorpion_p_rf pistol pr overheated	=	combat pistol overheated
+scorpion_p_rf pistol pr o_h_exit	=	combat pistol o_h_exit
+scorpion_p_rf pistol pp overheated	=	combat pistol overheated
+scorpion_p_rf pistol pp o_h_exit	=	combat pistol o_h_exit
+scorpion_p_rf pistol pr reload-1	=	combat pistol pr reload-1
+scorpion_p_rf rifle reload-1		=	combat rifle reload-1
+scorpion_p_rf rifle sg reload-1		=	combat rifle sg reload-1
+scorpion_p_rf rifle sr reload-1		=	combat rifle sr reload-1
+
+scorpion_p_rb missile reload-1		=	combat missile reload-1
+scorpion_p_rb pistol ne reload-1	=	combat pistol ne reload-1
+scorpion_p_rb pistol pr overheating	=	combat pistol overheating
+scorpion_p_rb pistol pr overheated	=	combat pistol overheated
+scorpion_p_rb pistol pr o_h_exit	=	combat pistol o_h_exit
+scorpion_p_rb pistol pp overheated	=	combat pistol overheated
+scorpion_p_rb pistol pp o_h_exit	=	combat pistol o_h_exit
+scorpion_p_rb pistol pr reload-1	=	combat pistol pr reload-1
+scorpion_p_rb rifle reload-1		=	combat rifle reload-1
+scorpion_p_rb rifle sg reload-1		=	combat rifle sg reload-1
+scorpion_p_rb rifle sr reload-1		=	combat rifle sr reload-1
+
+
+phantom_p_a02 any any idle		=	phantom_p_a01 any any idle
+phantom_p_a03 any any idle		=	phantom_p_a01 any any idle
+phantom_p_b01 any any idle		=	phantom_p_a01 any any idle
+phantom_p_b02 any any idle		=	phantom_p_a01 any any idle
+phantom_p_b03 any any idle		=	phantom_p_a01 any any idle
+phantom_p_c01 any any idle		=	phantom_p_a01 any any idle
+phantom_p_c02 any any idle		=	phantom_p_a01 any any idle
+phantom_p_c03 any any idle		=	phantom_p_a01 any any idle
+
+
+;;Look Screens
+
+mongoose_d look			=	combat look
+warthog_d look			=	combat look
+warthog_p look			=	combat look
+warthog_g look			= 	combat look
+scorpion_d look			=	combat look
+banshee_d look			=	combat look
+ghost_d look			= 	combat look
+scorpion_p_lf look		= 	combat look
+scorpion_p_lb look		=	combat look
+scorpion_p_rf look		=	combat look
+scorpion_p_rb look		=	combat look
+bunker-cover look		=	combat look
+bunker-open look		=	combat look 
+corner-cover-left rifle look	=	combat look
+corner-cover-right rifle look	=	combat look
+corner-open-left rifle look	=	combat look
+corner-open-right rifle look	=	combat look
+corner-cover-left pistol look	=	combat look
+corner-cover-right pistol look	=	combat look
+corner-open-left pistol look	=	combat look
+corner-open-right pistol look	=	combat look
+h_turret_ap_d look		=	combat look
+spectre_d look			=	combat look
+spectre_g look			=	combat look
+spectre_p_l look		=	combat look
+spectre_p_r look		=	combat look
+flight look			=	combat look
+climb look			=	combat look
+panic look			=	combat look
+patrol look			=	combat look
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; vehicle enter ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                        	                 
+
+                        	                 
+creep_p_l02 enter		=	creep_p_l01 enter
+creep_p_l03 enter		=	creep_p_l01 enter
+creep_p_l04 enter		=	creep_p_l01 enter
+creep_p_r01 enter		=	creep_p_l01 enter
+creep_p_r02 enter		=	creep_p_l01 enter
+creep_p_r03 enter		=	creep_p_l01 enter
+creep_p_r04 enter		=	creep_p_l01 enter
+creep_p_m01 enter		=	creep_p_l01 enter
+                        	                 
+                        	                 
+scorpion_p_lb enter		=	scorpion_p_lf enter
+scorpion_p_rf enter		=	scorpion_p_lf enter
+scorpion_p_rb enter		=	scorpion_p_lf enter
+
+scorpion_p_lb support enter	=	scorpion_p_lf support enter
+scorpion_p_rf support enter	=	scorpion_p_lf support enter
+scorpion_p_rb support enter	=	scorpion_p_lf support enter
+                        	                 
+
+                        	                
+                                                 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; vehicle exit ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                                                 
+
+
+creep_p_l02 exit		=	creep_p_l01 exit
+creep_p_l03 exit		=	creep_p_l01 exit
+creep_p_l04 exit		=	creep_p_l01 exit
+creep_p_r01 exit		=	creep_p_l01 exit
+creep_p_r02 exit		=	creep_p_l01 exit
+creep_p_r03 exit		=	creep_p_l01 exit
+creep_p_r04 exit		=	creep_p_l01 exit
+creep_p_m01 exit		=	creep_p_l01 exit
+                        	                 
+
+phantom_p_b01 any any exit	=	phantom_p_a01 any any exit
+phantom_p_b02 any any exit	=	phantom_p_a02 any any exit
+phantom_p_b03 any any exit	=	phantom_p_a03 any any exit
+phantom_p_c01 any any exit	=	phantom_p_a01 any any exit
+phantom_p_c02 any any exit	=	phantom_p_a02 any any exit
+phantom_p_c03 any any exit	=	phantom_p_a03 any any exit
+                        	                 
+scorpion_p_lb exit		=	scorpion_p_lf exit
+scorpion_p_rf exit		=	scorpion_p_lf exit
+scorpion_p_rb exit		=	scorpion_p_lf exit
+
+scorpion_p_lb support exit	=	scorpion_p_lf support exit
+scorpion_p_rf support exit	=	scorpion_p_lf support exit
+scorpion_p_rb support exit	=	scorpion_p_lf support exit
+                        	                 
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; OLD RENAME ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+combat dual aim-still-down	=	combat dual aim-still-up
+combat dual aim-move-down	=	combat dual aim-move-up
+crouch dual land-hard		=	combat dual land-hard
+crouch dual aim-still-down	=	crouch dual aim-still-up
+crouch dual aim-move-up		=	crouch dual aim-still-up
+crouch dual aim-move-down	=	crouch dual aim-still-up
+
+
+combat missile aim-still-down	=	combat missile aim-still-up
+combat missile aim-move-up	=	combat missile aim-still-up
+combat missile aim-move-down	=	combat missile aim-still-up
+crouch missile aim-still-down	=	crouch missile aim-still-up
+crouch missile aim-move-up	=	crouch missile aim-still-up
+crouch missile aim-move-down	=	crouch missile aim-still-up
+
+h-kill left gut			=	s-kill left gut
+h-kill right gut		=	s-kill right gut
+
+patrol pistol berserk		=	combat pistol berserk
+patrol rifle berserk		=	combat rifle berserk
+patrol sword berserk		=	combat sword berserk
+patrol missile berserk		=	combat missile berserk
+patrol support berserk		=	combat support berserk
+
+crouch pistol land-hard		=	combat pistol land-hard
+crouch sword land-hard		=	combat sword land-hard
+crouch rifle land-hard		=	combat rifle land-hard
+crouch missile land-hard	=	combat missile land-hard
+
+vault support enter var1	=	vault pistol enter var1
+
+combat rifle melee		=	combat pistol melee
+
+combat pistol pr fire-1		=	combat pistol pp fire-1
+combat pistol ne fire-1		=	combat pistol pp fire-1
+crouch pistol pp fire-1		=	combat pistol pp fire-1
+crouch pistol pp fire-2		=	combat pistol pp fire-2
+crouch pistol pr fire-1		=	combat pistol pp fire-1
+crouch pistol ne fire-1		=	combat pistol pp fire-1
+crouch sword aim-still-down	=	crouch sword aim-still-up
+crouch sword aim-move-down	=	crouch sword aim-move-up
+crouch rifle aim-move-up	=	crouch rifle aim-still-up
+crouch rifle aim-move-down	=	crouch rifle aim-still-down
+crouch rifle fire-1		=	combat rifle fire-1
+crouch rifle br fire-1		=	combat rifle fire-1
+crouch rifle br fire-2		=	combat rifle fire-2
+crouch rifle sr fire-1		=	combat rifle fire-1
+crouch rifle sg fire-1		=	combat rifle sg fire-1
+crouch rifle csr fire-1		=	combat rifle fire-1
+crouch pistol smg fire-1	=	combat pistol pp fire-1
+crouch missile fire-1		=	combat missile fire-1
+crouch support fire-1		=	combat support fire-1
+
+
+flaming pistol move-front	=	combat pistol move-front
+flaming rifle move-front	=	combat rifle move-front
+
+;;CLIMBING
+
+climb pistol attach		= 	climb unarmed attach
+climb pistol detach		= 	climb unarmed detach
+climb pistol idle		= 	climb unarmed idle
+climb pistol climb-up		= 	climb unarmed climb-up
+climb pistol climb-down		= 	climb unarmed climb-down
+
+climb support attach		= 	climb unarmed attach
+climb support detach		= 	climb unarmed detach
+climb support idle		= 	climb unarmed idle
+climb support climb-up		= 	climb unarmed climb-up
+climb support climb-down	= 	climb unarmed climb-down
+
+climb rifle attach		= 	climb unarmed attach
+climb rifle detach		= 	climb unarmed detach
+climb rifle idle		= 	climb unarmed idle
+climb rifle climb-up		= 	climb unarmed climb-up
+climb rifle climb-down		= 	climb unarmed climb-down
+climb support fire-1		=	combat support fire-1
+climb rifle br fire-1		=	combat rifle fire-1
+climb rifle br fire-2		=	combat rifle fire-2
+climb rifle sg fire-1		=	combat rifle sg fire-1
+climb rifle csr fire-1		=	combat rifle fire-1
+climb rifle sr fire-1		=	combat rifle fire-1
+climb pistol smg fire-1		=	combat rifle fire-1
+climb missile fire-1		=	combat missile fire-1
+
+climb pistol hp fire-1		=	combat pistol pp fire-1
+climb pistol pp fire-2		=	combat pistol pp fire-2
+climb pistol pp fire-1		=	combat pistol pp fire-1
+climb pistol pr fire-1		=	combat pistol pp fire-1
+climb pistol ne fire-1		=	combat pistol pp fire-1
+climb pistol hp reload-1	=	combat pistol hp reload-1
+climb pistol pp reload-1	=	combat pistol pr reload-1
+climb pistol pr reload-1	=	combat pistol pr reload-1
+climb pistol ne reload-1	=	combat pistol pr reload-1
+climb support reload-1		=	combat support reload-1
+
+climb pistol pr overheating	=	combat pistol overheating
+climb pistol pr overheated	=	combat pistol overheated
+climb pistol pr o_h_exit	=	combat pistol o_h_exit
+climb pistol pp overheating	=	combat pistol overheated
+climb pistol pp overheated	=	combat pistol overheated
+climb pistol pp o_h_exit	=	combat pistol o_h_exit
+
+;;Airborne and landing
+
+patrol pistol land-hard		= 	combat pistol land-hard
+patrol pistol land-soft		= 	combat pistol land-soft
+patrol sword airborne		=	combat sword airborne
+patrol sword land-hard		=	combat sword land-hard
+patrol sword land-soft		=	combat sword land-soft
+combat rifle aim-move-down	=	combat rifle aim-move-up
+patrol pistol aim-still-down	=	patrol pistol aim-still-up
+patrol pistol aim-move-down	=	patrol pistol aim-move-up
+patrol sword aim-still-down	=	patrol sword aim-still-up
+patrol rifle aim-still-up	=	combat rifle aim-still-down
+patrol rifle aim-still-down	=	combat rifle aim-still-down
+patrol rifle aim-move-up	=	combat rifle aim-move-up
+patrol rifle aim-move-down	=	combat rifle aim-move-up
+patrol sword move-front		=	patrol sword walk-front
+
+patrol rifle land-hard		= 	combat rifle land-hard
+patrol rifle land-soft		= 	combat rifle land-soft
+
+combat rifle dive-front		=	combat pistol dive-front
+combat rifle dive-left		=	combat pistol dive-left
+combat rifle dive-right		=	combat pistol dive-right
+combat rifle evade-left		=	combat pistol evade-left
+combat rifle evade-right	=	combat pistol evade-right
+
+combat rifle br fire-1		=	combat rifle fire-1
+combat rifle br fire-2		=	combat rifle fire-2
+combat rifle sr fire-1		=	combat rifle fire-1
+combat rifle csr fire-1		=	combat rifle fire-1
+
+
+
+;;;CORNER STUFF
+
+corner-open-right pistol aim-still-down		=	corner-open-right pistol aim-still-up
+corner-open-left pistol aim-still-down		=	corner-open-left pistol aim-still-up
+corner-open-left sword aim-still-down		=	corner-open-left sword aim-still-up
+corner-open-right sword aim-still-down		=	corner-open-right sword aim-still-up
+corner-open-left rifle aim-still-down		=	corner-open-left rifle aim-still-up
+corner-open-right rifle aim-still-down		=	corner-open-right rifle aim-still-up
+corner-open-left missile aim-still-down		=	corner-open-left missile aim-still-up
+corner-open-right missile aim-still-down	=	corner-open-right missile aim-still-up
+
+corner-cover-left pistol aim-still-up		=	corner-cover-left pistol aim-still-down
+corner-cover-right pistol aim-still-up		=	corner-cover-right pistol aim-still-down
+corner-cover-left sword aim-still-up		=	corner-cover-left pistol aim-still-down
+corner-cover-right sword aim-still-up		=	corner-cover-right pistol aim-still-down
+corner-cover-left sword aim-still-down		=	corner-cover-left pistol aim-still-down
+corner-cover-left sword enter			=	corner-cover-left pistol enter
+corner-cover-left sword exit			=	corner-cover-left pistol exit
+corner-cover-left sword idle			=	corner-cover-left pistol idle
+corner-cover-right sword aim-still-down		=	corner-cover-right pistol aim-still-down
+corner-cover-right sword enter			=	corner-cover-right pistol enter
+corner-cover-right sword exit			=	corner-cover-right pistol exit
+corner-cover-right sword idle			=	corner-cover-right pistol idle
+corner-cover-left rifle aim-still-down		=	corner-cover-left rifle aim-still-up
+corner-cover-right rifle aim-still-down		=	corner-cover-right rifle aim-still-up
+
+corner-cover-left missile aim-still-up		=	corner-cover-left pistol aim-still-down
+corner-cover-left missile aim-still-down	=	corner-cover-left pistol aim-still-down
+corner-cover-left missile enter			=	corner-cover-left pistol enter
+corner-cover-left missile exit			=	corner-cover-left pistol exit
+corner-cover-left missile idle			=	corner-cover-left pistol idle
+corner-cover-right missile aim-still-up		=	corner-cover-right pistol aim-still-down
+corner-cover-right missile aim-still-down	=	corner-cover-right pistol aim-still-down
+corner-cover-right missile enter		=	corner-cover-right pistol enter
+corner-cover-right missile exit			=	corner-cover-right pistol exit
+corner-cover-right missile idle			=	corner-cover-right pistol idle
+
+
+corner-open-left pistol hp fire-1		=	combat pistol pp fire-1
+corner-open-left pistol pp fire-1		=	combat pistol pp fire-1
+corner-open-left pistol ne fire-1		=	combat pistol pp fire-1
+corner-open-left pistol pr fire-1		=	combat pistol pp fire-1
+corner-open-left pistol any fire-1		=	combat pistol pp fire-1
+corner-open-left missile fire-1			=	combat missile fire-1
+corner-open-right pistol hp fire-1		=	combat pistol pp fire-1
+corner-open-right pistol pp fire-1		=	combat pistol pp fire-1
+corner-open-right pistol ne fire-1		=	combat pistol pp fire-1
+corner-open-right pistol pr fire-1		=	combat pistol pp fire-1
+corner-open-right pistol any fire-1		=	combat pistol pp fire-1
+corner-open-right pistol pp fire-2		=	combat pistol pp fire-2
+corner-open-left pistol pp fire-2		=	combat pistol pp fire-2
+corner-open-right missile fire-1		=	combat missile fire-1
+corner-open-left rifle br fire-1		=	combat rifle fire-1
+corner-open-left rifle br fire-2		=	combat rifle fire-2
+corner-open-left rifle sr fire-1		=	combat rifle fire-1
+corner-open-left rifle sg fire-1		=	combat rifle sg fire-1
+corner-open-left rifle csr fire-1		=	combat rifle fire-1
+corner-open-left pistol smg fire-1		=	combat pistol pp fire-1
+corner-open-left rifle any fire-1		=	combat rifle fire-1
+corner-open-right rifle br fire-1		=	combat rifle fire-1
+corner-open-right rifle br fire-2		=	combat rifle fire-2
+corner-open-right rifle sr fire-1		=	combat rifle fire-1
+corner-open-right rifle sg fire-1		=	combat rifle sg fire-1
+corner-open-right rifle csr fire-1		=	combat rifle fire-1
+corner-open-right pistol smg fire-1		=	combat pistol pp fire-1
+corner-open-right rifle any fire-1		=	combat rifle fire-1
+corner-open-left pistol pr overheating		=	combat pistol overheating
+corner-open-left pistol pr overheated		=	combat pistol overheated
+corner-open-left pistol pr o_h_exit		=	combat pistol o_h_exit
+corner-open-left pistol pp overheating		=	combat pistol overheated
+corner-open-left pistol pp overheated		=	combat pistol overheated
+corner-open-left pistol pp o_h_exit		=	combat pistol o_h_exit
+corner-open-right pistol pr overheating		=	combat pistol overheating
+corner-open-right pistol pr overheated		=	combat pistol overheated
+corner-open-right pistol pr o_h_exit		=	combat pistol o_h_exit
+corner-open-right pistol pp overheating		=	combat pistol overheated
+corner-open-right pistol pp overheated		=	combat pistol overheated
+corner-open-right pistol pp o_h_exit		=	combat pistol o_h_exit
+
+
+
+
+corner-cover-left sword idle 2 corner-open-left idle		=	corner-cover-left pistol idle 2 corner-open-left idle
+corner-open-left sword idle 2 corner-cover-left idle		=	corner-open-left pistol idle 2 corner-cover-left idle
+corner-cover-left missile idle 2 corner-open-left idle		=	corner-cover-left pistol idle 2 corner-open-left idle
+corner-cover-right missile idle 2 corner-open-right idle	=	corner-cover-right pistol idle 2 corner-open-right idle
+
+;;BUNKER STUFF
+
+bunker-cover sword enter			=	bunker-cover pistol enter
+bunker-cover rifle enter			=	bunker-cover pistol enter
+bunker-cover missile enter			=	bunker-cover pistol enter
+bunker-cover sword idle 2 bunker-open idle	=	bunker-cover pistol idle 2 bunker-open idle
+bunker-cover rifle idle 2 bunker-open idle	=	bunker-cover pistol idle 2 bunker-open idle
+bunker-cover sword idle				=	bunker-cover pistol idle
+bunker-cover rifle idle				=	bunker-cover pistol idle
+bunker-cover missile idle			=	bunker-cover pistol idle
+bunker-open pistol aim-still-down		=	bunker-open pistol aim-still-up
+bunker-open sword aim-still-up			=	bunker-open pistol aim-still-up
+bunker-open sword aim-still-down		=	bunker-open pistol aim-still-up
+bunker-open rifle aim-still-up			=	bunker-open pistol aim-still-up
+bunker-open rifle aim-still-down		=	bunker-open pistol aim-still-up
+bunker-open sword exit				=	bunker-open pistol exit
+bunker-open rifle exit				=	bunker-open pistol exit
+bunker-open sword idle 2 bunker-cover idle	=	bunker-open pistol idle 2 bunker-cover idle
+bunker-open rifle idle 2 bunker-cover idle	=	bunker-open pistol idle 2 bunker-cover idle
+bunker-open sword idle				=	bunker-open pistol idle
+bunker-open rifle idle				=	bunker-open pistol idle
+bunker-open pistol fire-1			=	combat pistol pp fire-1
+bunker-open pistol ne fire-1			=	combat pistol pp fire-1
+bunker-open pistol pr fire-1			=	combat pistol pp fire-1
+bunker-open pistol hp fire-1			=	combat pistol pp fire-1
+bunker-open rifle fire-1			=	combat pistol pp fire-1
+bunker-open rifle br fire-1			=	combat pistol pp fire-1
+bunker-open rifle br fire-2			=	combat pistol pp fire-1
+bunker-open rifle sr fire-1			=	combat pistol pp fire-1
+bunker-open rifle sg fire-1			=	combat pistol pp fire-1
+bunker-open rifle csr fire-1			=	combat pistol pp fire-1
+bunker-open pistol smg fire-1			=	combat pistol pp fire-1
+bunker-open missile fire-1			=	combat missile fire-1
+bunker-cover pistol aim-still-down		=	bunker-cover pistol aim-still-up
+bunker-cover sword aim-still-up			=	bunker-cover pistol aim-still-up
+bunker-cover sword aim-still-down		=	bunker-cover pistol aim-still-up
+bunker-cover rifle aim-still-up			=	bunker-cover pistol aim-still-up
+bunker-cover rifle aim-still-down		=	bunker-cover pistol aim-still-up
+bunker-cover missile aim-still-up		=	bunker-cover pistol aim-still-up
+bunker-cover missile aim-still-down		=	bunker-cover pistol aim-still-up
+bunker-open pistol pr overheating		=	combat pistol overheating
+bunker-open pistol pr overheated		=	combat pistol overheated
+bunker-open pistol pr o_h_exit			=	combat pistol o_h_exit
+bunker-open pistol pp overheating		=	combat pistol overheated
+bunker-open pistol pp overheated		=	combat pistol overheated
+bunker-open pistol pp o_h_exit			=	combat pistol o_h_exit
+
+
+any any any airborne              		=          combat pistol airborne
+any any any land-soft               		=          combat pistol land-soft
+any any any land-hard             		=          combat pistol land-hard
+
+
+;;  FLIGHT STUFF  ;;;
+
+
+flight pistol aim-move-up			=	flight pistol aim-still-up
+flight pistol aim-move-down			=	flight pistol aim-still-down
+flight sword aim-still-down			=	flight sword aim-still-up
+flight sword aim-move-up			=	flight sword aim-still-up
+flight sword aim-move-down			=	flight sword aim-still-up
+flight dual aim-move-up				=	flight dual aim-still-up
+flight dual aim-move-down			=	flight dual aim-still-down
+flight pistol any fire-1			=	combat pistol pp fire-1
+flight pistol pr overheating			=	combat pistol overheating
+flight pistol pr overheated			=	combat pistol overheated
+flight pistol pr o_h_exit			=	combat pistol o_h_exit
+flight pistol pp overheated			=	combat pistol overheated
+flight pistol pp o_h_exit			=	combat pistol o_h_exit
+flight dual overheating				=	combat dual overheating
+flight dual overheated				=	combat dual overheated
+flight dual o_h_exit				=	combat dual o_h_exit
+flight pistol overheating			=	combat pistol overheating
+flight pistol overheated			=	combat pistol overheated
+flight pistol o_h_exit				=	combat pistol o_h_exit
+flight dual overheating-left			=	combat dual overheating-left
+flight dual overheated-left			=	combat dual overheated-left
+flight dual o_h_exit-left			=	combat dual o_h_exit-left
+flight dual fire-1 var1				=	combat dual fire-1 var1
+flight dual fire-1-left var1			=	combat dual fire-1-left var1
+flight dual hp fire-1 var1			=	combat dual fire-1 var1
+flight dual hp fire-1-left var1			=	combat dual fire-1-left var1
+flight dual hp reload-1				=	combat dual hp reload-1
+flight dual hp reload-1-left			=	combat dual hp reload-1-left
+flight dual ne reload-1				=	combat dual ne reload-1
+flight dual ne reload-1-left			=	combat dual ne reload-1-left
+flight dual smg reload-1			=	combat dual smg reload-1
+flight dual smg reload-1-left			=	combat dual smg reload-1-left
+flight dual pp overheating			=	combat dual pp overheated
+flight dual pp overheating-left			=	combat dual pp overheated-left
+
+flight dual move-front				=	flight dual idle
+flight dual move-left				=	flight dual idle
+flight dual move-right				=	flight dual idle
+flight dual move-back				=	flight dual idle
+
+flight pistol move-front			=	flight pistol idle
+flight pistol move-left				=	flight pistol idle
+flight pistol move-right			=	flight pistol idle
+flight pistol move-back				=	flight pistol idle
+
+flight sword move-front				=	flight sword idle
+flight sword move-left				=	flight sword idle
+flight sword move-right				=	flight sword idle
+flight sword move-back				=	flight sword idle
+
+
+;; SUPPORT
+
+combat support aim-still-down			=	combat support aim-still-up
+combat support aim-move-up			=	combat support aim-still-up
+combat support aim-move-down			=	combat support aim-still-up
+
+crouch support land-hard			=	combat support land-hard
+crouch support aim-still-down			=	crouch support aim-still-up
+crouch support aim-move-up			=	crouch support aim-still-up
+crouch support aim-move-down			=	crouch support aim-still-up
+
+warthog_p support aim-still-down		=	warthog_p support aim-still-up
+
+
+
+
+
+;;; GRIP RENAMES
+
+
+crouch missile rl grip		=	combat missile rl grip
+crouch pistol hp grip		=	combat pistol hp grip
+crouch pistol ne grip		=	combat pistol ne grip
+crouch pistol pp grip		=	combat pistol pp grip
+crouch pistol pr grip		=	combat pistol pr grip
+crouch pistol smg grip		=	combat pistol smg grip
+crouch rifle br grip		=	combat rifle br grip
+crouch rifle csr grip		=	combat rifle csr grip
+crouch rifle sg grip		=	combat rifle sg grip
+crouch rifle sr grip		=	combat rifle sr grip
+
+;;; COVENANT GUN TOWER RENAME : TEMPORARY
+
+guntower_d any any aim-still-up		=	h_turret_ap_d aim-still-up
+guntower_d enter       			=	h_turret_ap_d enter
+guntower_d exit        			=	h_turret_ap_d exit
+guntower_d any any fire-1      		=	h_turret_ap_d fire-1
+guntower_d any any idle  		=	h_turret_ap_d fixed idle
+
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	;; SCARAB ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+		;; invisible turret seats
+			scarab_turret_d any any look			=	combat look
+			scarab_turret_d any any aim-still-up		=	h_turret_ap_d aim-still-up
+			scarab_turret_d enter       			=	h_turret_ap_d enter
+			scarab_turret_d exit        			=	h_turret_ap_d exit
+			scarab_turret_d any any fire-1      		=	h_turret_ap_d fire-1
+			scarab_turret_d any any idle  			=	h_turret_ap_d fixed idle

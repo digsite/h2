@@ -1,0 +1,641 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; RENAME : MASTERCHIEF ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;###########################################################################################
+;;##### CLASSES #############################################################################
+;;###########################################################################################
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; UNARMED ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch unarmed aim-move-up              =       crouch sword aim-move-up
+                        crouch unarmed aim-still-up             =       crouch sword aim-still-up
+                        crouch unarmed airborne                 =       crouch sword airborne
+                        crouch unarmed idle                     =       crouch sword idle
+                        crouch unarmed land-hard                =       crouch sword land-hard
+                        crouch unarmed land-soft                =       crouch sword land-soft
+                        crouch unarmed move-back                =       crouch sword move-back
+                        crouch unarmed move-front               =       crouch sword move-front
+                        crouch unarmed move-left                =       crouch sword move-left
+                        crouch unarmed move-right               =       crouch sword move-right
+                        crouch unarmed turn-left                =       crouch sword turn-left
+                        crouch unarmed turn-right               =       crouch sword turn-right
+                        crouch unarmed walk-back                =       crouch sword walk-back
+                        crouch unarmed walk-front               =       crouch sword walk-front
+                        crouch unarmed walk-left                =       crouch sword walk-left
+                        crouch unarmed walk-right               =       crouch sword walk-right
+                        crouch unarmed put-away                 =       combat sword put-away
+                        crouch unarmed ready                    =       combat sword ready
+                        crouch unarmed throw-grenade var0       =       combat sword throw-grenade var0
+
+                ;; combat
+                        combat unarmed aim-move-up              =       combat sword aim-move-up
+                        combat unarmed aim-still-up             =       combat sword aim-still-up
+                        combat unarmed airborne                 =       combat sword airborne
+                        combat unarmed idle                     =       combat sword idle
+                        combat unarmed land-hard                =       combat sword land-hard
+                        combat unarmed land-soft                =       combat sword land-soft
+                        combat unarmed melee-strike-1           =       combat sword melee-strike-1
+                        combat unarmed melee-strike-2           =       combat sword melee-strike-2
+                        combat unarmed move-back                =       combat sword move-back
+                        combat unarmed move-front               =       combat sword move-front
+                        combat unarmed move-left                =       combat sword move-left
+                        combat unarmed move-right               =       combat sword move-right
+                        combat unarmed put-away                 =       combat sword put-away
+                        combat unarmed ready                    =       combat sword ready
+                        combat unarmed throw-grenade var0       =       combat sword throw-grenade var0
+                        combat unarmed turn-left                =       combat sword turn-left
+                        combat unarmed turn-right               =       combat sword turn-right
+                        combat unarmed walk-back                =       combat sword walk-back
+                        combat unarmed walk-front               =       combat sword walk-front
+                        combat unarmed walk-left                =       combat sword walk-left
+                        combat unarmed walk-right               =       combat sword walk-right
+
+                ;; warthog_p
+                        warthog_p unarmed acc-front-back        =       warthog_p acc-front-back
+                        warthog_p unarmed acc-left-right        =       warthog_p acc-left-right
+                        warthog_p unarmed acc-up-down           =       warthog_p acc-up-down
+                        warthog_p unarmed aim-still-up          =       warthog_p sword aim-still-up
+                        warthog_p unarmed idle                  =       warthog_p sword idle
+                        warthog_p unarmed enter                 =       warthog_p enter
+                        warthog_p unarmed exit                  =       warthog_p exit
+                        ;warthog_p unarmed melee-strike-1       =       combat sword melee-strike-1
+                        ;warthog_p unarmed melee-strike-2       =       combat sword melee-strike-2
+                        warthog_p unarmed put-away              =       combat sword put-away
+                        warthog_p unarmed ready                 =       combat sword ready
+			warthog_p pistol pp fire-2		=	combat pistol pp fire-2
+			warthog_p pistol pp overheating		=	combat pistol pp overheating
+			warthog_p pistol pp overheated		=	combat pistol pp overheated
+			warthog_p pistol pp o_h_exit		=	combat pistol pp o_h_exit
+			spectre_p_l pistol pp fire-2		=	combat pistol pp fire-2
+			spectre_p_l pistol pp overheating	=	combat pistol pp overheating
+			spectre_p_l pistol pp overheated	=	combat pistol pp overheated
+			spectre_p_l pistol pp o_h_exit		=	combat pistol pp o_h_exit
+			spectre_p_r pistol pp fire-2		=	combat pistol pp fire-2
+			spectre_p_r pistol pp overheating	=	combat pistol pp overheating
+			spectre_p_r pistol pp overheated	=	combat pistol pp overheated
+			spectre_p_r pistol pp o_h_exit		=	combat pistol pp o_h_exit
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; DUAL ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; ready + put away
+                        crouch dual ready               =       combat dual ready
+                        crouch dual ready-left          =       combat dual ready-left
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; PISTOL ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; ready + put away
+                        crouch pistol ready             =       combat pistol ready
+                        crouch pistol put-away          =       combat pistol put-away
+
+                ;; warthog_p
+                        warthog_p pistol put-away       =       combat rifle put-away
+                        warthog_p pistol ready          =       combat rifle ready
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; RIFLE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; ready + put away
+                        crouch rifle ready              =       combat rifle ready
+                        crouch rifle put-away           =       combat rifle put-away
+
+                ;; warthog_p
+                        warthog_p rifle put-away        =       combat rifle put-away
+                        warthog_p rifle ready           =       combat rifle ready
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; SUPPORT : HI ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; ready + put away
+                        crouch missile ready            =       combat missile ready
+                        crouch missile put-away         =       combat missile put-away
+
+                ;; warthog_p
+                        warthog_p missile put-away      =       combat missile put-away
+                        warthog_p missile ready         =       combat missile ready
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; SUPPORT : LOW ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; ready + put away
+                        crouch support ready            =       combat support ready
+                        crouch support put-away         =       combat support put-away
+
+                ;; warthog_p
+                        warthog_p support put-away      =       combat support put-away
+                        warthog_p support ready         =       combat support ready
+			warthog_p support ds acc-front-back	=	warthog_p support bs acc-front-back
+			warthog_p support ds acc-left-right	=	warthog_p support bs acc-left-right
+			warthog_p support ds acc-up-down	=	warthog_p support bs acc-up-down
+			warthog_p support ds aim-still-up	=	warthog_p support bs aim-still-up
+			warthog_p support ds fire-1		=	warthog_p support bs fire-1
+			warthog_p support ds idle		=	warthog_p support bs idle
+			warthog_p support ds reload-1		=	warthog_p support bs reload-1
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; SWORD ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; ready + put away
+                        crouch sword ready              =       combat sword ready
+                        crouch sword put-away           =       combat sword put-away
+
+                ;; warthog_p
+                        warthog_p sword ready           =       combat sword ready
+                        warthog_p sword put-away        =       combat sword put-away
+
+;;###########################################################################################
+;;##### WEAPONS #############################################################################
+;;###########################################################################################
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; GRENADE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch pistol throw-grenade var0        =       combat rifle throw-grenade var0
+                        crouch rifle throw-grenade var0         =       combat rifle throw-grenade var0
+                        crouch rifle pr throw-grenade var0      =       combat rifle pr throw-grenade var0
+                        crouch missile throw-grenade var0       =       combat missile throw-grenade var0
+                        crouch support throw-grenade var0       =       combat support throw-grenade var0
+                        crouch sword throw-grenade var0         =       combat sword throw-grenade var0
+
+                ;; combat
+                        combat pistol throw-grenade var0        =       combat rifle throw-grenade var0
+
+		;; spectre_p
+			spectre_p_r any any throw-grenade	=	spectre_p_l any any throw-grenade
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; SWORD ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch sword melee-lunge                =       combat sword melee-lunge
+                        crouch sword melee-lunge-airborne       =       combat sword melee-lunge-airborne
+                        crouch sword melee-dash                 =       combat sword melee-dash
+                        crouch sword melee-dash-airborne        =       combat sword melee-dash-airborne
+                        crouch sword melee-strike-1             =       combat sword melee-strike-1
+                        crouch sword melee-strike-2             =       combat sword melee-strike-2
+
+                ;; warthog_p
+                        ;warthog_p sword melee-lunge             =       combat sword melee-lunge
+                        ;warthog_p sword melee-lunge-airborne    =       combat sword melee-lunge-airborne
+                        ;warthog_p sword melee-dash              =       combat sword melee-dash
+                        ;warthog_p sword melee-dash-airborne     =       combat sword melee-dash-airborne
+                        warthog_p sword melee-strike-1           =       combat sword melee-strike-1
+                        warthog_p sword melee-strike-2           =       combat sword melee-strike-2
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; DUAL ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch dual fire-1 var1                 =       combat dual fire-1 var1
+                        crouch dual fire-1-left var1            =       combat dual fire-1-left var1
+
+                ;; smg
+                        crouch dual smg fire-1 var1             =       combat dual fire-1 var1
+                        crouch dual smg fire-1-left var1        =       combat dual fire-1-left var1
+                        combat dual smg fire-1 var1             =       combat dual fire-1 var1
+                        combat dual smg fire-1-left var1        =       combat dual fire-1-left var1
+                        crouch dual smg reload-1                =       combat dual smg reload-1
+                        crouch dual smg reload-1-left           =       combat dual smg reload-1-left
+
+                ;; plasma rifle
+                        crouch dual pr fire-1 var1              =       combat dual fire-1 var1
+                        crouch dual pr fire-1-left var1         =       combat dual fire-1-left var1
+                        combat dual pr fire-1 var1              =       combat dual fire-1 var1
+                        combat dual pr fire-1-left var1         =       combat dual fire-1-left var1
+
+                ;; plasma pistol
+                        crouch dual pp fire-1 var1              =       combat dual fire-1 var1
+                        crouch dual pp fire-1-left var1         =       combat dual fire-1-left var1
+                        combat dual pp fire-1 var1              =       combat dual fire-1 var1
+                        combat dual pp fire-1-left var1         =       combat dual fire-1-left var1
+
+                ;; needler
+                        crouch dual ne fire-1 var1              =       combat dual fire-1 var1
+                        crouch dual ne fire-1-left var1         =       combat dual fire-1-left var1
+                        combat dual ne fire-1 var1              =       combat dual fire-1 var1
+                        combat dual ne fire-1-left var1         =       combat dual fire-1-left var1
+                        crouch dual ne reload-1                 =       combat dual smg reload-1
+                        crouch dual ne reload-1-left            =       combat dual smg reload-1-left
+
+                ;; magnum
+			crouch dual hp reload-1			= 	combat dual hp reload-1
+			crouch dual hp reload-1-left		= 	combat dual hp reload-1-left
+
+                ;; shotgun
+                        crouch dual sg chamber-1                =       combat dual sg chamber-1
+                        crouch dual sg chamber-1-left           =       combat dual sg chamber-1-left
+
+                ;; energy sword
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; PISTOL : PLASMA ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch pistol pp fire-1                 =       combat pistol pp fire-1
+                        crouch pistol pp melee-strike-1         =       combat pistol pp melee-strike-1
+                        crouch pistol pp melee-strike-2         =       combat pistol pp melee-strike-2
+
+                ;; warthog_p
+                        warthog_p pistol pp fire-1              =       combat pistol pp fire-1
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; PISTOL : MAGNUM ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch pistol hp melee-strike-1         =       combat pistol hp melee-strike-1
+                        crouch pistol hp fire-1                 =       combat pistol hp fire-1
+                        crouch pistol hp reload-1               =       combat pistol hp reload-1
+
+                ;; warthog_p
+                        warthog_p pistol hp fire-1              =       combat pistol hp fire-1
+                        warthog_p pistol hp reload-1            =       combat pistol hp reload-1
+                        
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; PISTOL : NEEDLER ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; combat
+                        combat pistol ne fire-1                 =       combat pistol pp fire-1
+
+                ;; crouch
+                        crouch pistol ne fire-1                 =       combat pistol pp fire-1
+                        crouch pistol ne melee-strike-1         =       combat pistol ne melee-strike-1
+                        crouch pistol ne reload-1               =       combat pistol ne reload-1
+
+                ;; warthog_p
+                        warthog_p pistol ne fire-1              =       combat pistol pp fire-1
+                        warthog_p pistol ne reload-1            =       combat pistol ne reload-1
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; RIFLE : BATTLE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ; grip
+                        ui rifle br grip                        =       combat rifle br grip
+
+                ;; fire-2
+                        combat rifle br fire-2                  =       combat rifle br fire-1
+
+                ;; crouch
+                        crouch rifle br fire-1                  =       combat rifle br fire-1
+                        crouch rifle br fire-2                  =       combat rifle br fire-1
+                        crouch rifle br melee-strike-1          =       combat rifle br melee-strike-1
+                        crouch rifle br melee-strike-2          =       combat rifle br melee-strike-2
+                        crouch rifle br reload-1                =       combat rifle br reload-1
+
+                ;; warthog_p
+                        warthog_p rifle br fire-1               =       combat rifle br fire-1
+                        warthog_p rifle br fire-2               =       combat rifle br fire-1
+                        warthog_p rifle br reload-1             =       combat rifle br reload-1
+                        
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; RIFLE : SMG ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch rifle smg reload-1               =       combat rifle smg reload-1
+                        crouch rifle smg melee-strike-1         =       combat rifle smg melee-strike-1
+                        crouch rifle smg fire-1                 =       combat rifle br fire-1
+
+                ;; combat
+                        combat rifle smg fire-1                 =       combat rifle br fire-1
+
+                ;; warthog_p
+                        warthog_p rifle smg reload-1            =       combat rifle smg reload-1
+                        warthog_p rifle smg fire-1              =       combat rifle br fire-1
+			
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; RIFLE : SHOTGUN ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch rifle sg fire-1                  =       combat rifle sg fire-1
+                        crouch rifle sg melee-strike-1          =       combat rifle sg melee-strike-1
+                        crouch rifle sg melee-strike-2          =       combat rifle sg melee-strike-2
+                        crouch rifle sg reload-1                =       combat rifle sg reload-1
+                        crouch rifle sg chamber-1               =       combat rifle sg chamber-1
+
+                ;; warthog_p
+                        warthog_p rifle sg fire-1               =       combat rifle sg fire-1
+                        warthog_p rifle sg reload-1             =       combat rifle sg reload-1
+                        warthog_p rifle sg chamber-1            =       combat rifle sg chamber-1
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; RIFLE : SNIPER ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch rifle sr fire-1                  =       combat rifle sr fire-1
+                        crouch rifle sr melee-strike-1          =       combat rifle sr melee-strike-1
+                        crouch rifle sr reload-1                =       combat rifle sr reload-1
+
+                ;; warthog_p
+                        warthog_p rifle sr fire-1               =       combat rifle sr fire-1
+                        warthog_p rifle sr reload-1             =       combat rifle sr reload-1
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; RIFLE : BEAM ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;;fire
+                        combat rifle csr fire-1                 =       combat rifle sr fire-1
+
+                ;; crouch
+                        crouch rifle csr melee-strike-1         =       combat rifle csr melee-strike-1
+                        crouch rifle csr melee-strike-2         =       combat rifle csr melee-strike-2
+                        crouch rifle csr fire-1                 =       combat rifle sr fire-1
+                        crouch rifle csr overheating            =       combat rifle csr overheating
+                        crouch rifle csr overheated             =       combat rifle csr overheated
+                        crouch rifle csr o_h_exit               =       combat rifle csr o_h_exit
+
+                ;; warthog_p
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; RIFLE : CARBINE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;;fire
+                        combat rifle cb fire-2                  =       combat rifle br fire-1
+
+                ;; crouch
+                        crouch rifle cb melee-strike-1          =       combat rifle cb melee-strike-1
+                        crouch rifle cb melee-strike-2          =       combat rifle cb melee-strike-2
+                        crouch rifle cb fire-2                  =       combat rifle br fire-1
+                        crouch rifle cb reload-1                =       combat rifle cb reload-1
+
+                ;; warthog_p
+                        warthog_p rifle cb fire-1               =       combat rifle br fire-1
+                        warthog_p rifle cb reload-1             =       combat rifle cb reload-1
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; RIFLE : PLASMA ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch rifle pr fire-1 var1             =       combat rifle pr fire-1 var1
+                        crouch rifle pr melee-strike-1          =       combat rifle pr melee-strike-1
+                        crouch rifle pr melee-strike-2          =       combat rifle pr melee-strike-2
+                        crouch rifle pr overheating             =       combat rifle pr overheating
+                        crouch rifle pr overheated              =       combat rifle pr overheated
+                        crouch rifle pr o_h_exit                =       combat rifle pr o_h_exit
+                        crouch rifle pr ready                   =       combat rifle pr ready
+                        crouch rifle pr put-away                =       combat rifle pr put-away
+
+                ;; warthog_p
+                        warthog_p rifle pr fire-1 var1          =       combat rifle pr fire-1 var1
+                        warthog_p rifle pr overheating          =       combat rifle pr overheating
+                        warthog_p rifle pr overheated           =       combat rifle pr overheated
+                        warthog_p rifle pr o_h_exit             =       combat rifle pr o_h_exit
+                        warthog_p rifle pr put-away             =       combat rifle pr put-away
+                        warthog_p rifle pr ready                =       combat rifle pr ready
+
+                ;; spectre
+
+                ;; scorpion
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; SUPPORT : HI : ROCKET LAUNCHER ;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; fire-2
+                        combat missile rl fire-2                =       combat missile rl fire-1
+
+                ;; crouch
+                        crouch missile rl reload-1              =       combat missile rl reload-1
+                        crouch missile rl melee-strike-1        =       combat missile rl melee-strike-1
+                        crouch missile rl fire-1                =       combat missile rl fire-1
+
+                ;; warthog_p
+                        warthog_p missile rl fire-1             =       combat missile rl fire-1
+                        warthog_p missile rl fire-2             =       combat missile rl fire-1
+                        warthog_p missile rl reload-1           =       combat missile rl reload-1
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; SUPPORT : HI : FLAK CANNON ;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; fire
+                        combat missile fc fire-1                =       combat missile rl fire-1
+
+                ;; crouch
+                        crouch missile fc melee-strike-1        =       combat missile fc melee-strike-1
+                        crouch missile fc reload-1              =       combat missile fc reload-1
+                        crouch missile fc fire-1                =       combat missile rl fire-1
+
+                ;; warthog_p
+                        warthog_p missile fc fire-1             =       combat missile rl fire-1
+                        warthog_p missile fc reload-1           =       combat missile fc reload-1
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; SUPPORT : LO : FLAMETHROWER ;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch support ft fire-1        =       combat support bs fire-1
+                        crouch support ft melee         =       combat support bs melee
+                        crouch support ft reload-1      =       combat support bs reload-1
+
+                ;; combat
+                        combat support ft fire-1        =       combat support bs fire-1
+                        combat support ft melee         =       combat support bs melee
+                        combat support ft reload-1      =       combat support bs reload-1
+
+                ;; warthog_p
+                        warthog_p support ft fire-1     =       combat support bs fire-1
+                        warthog_p support ft reload-1   =       combat support bs reload-1
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; SUPPORT : LO : BRUTE SHOT ;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch support bs fire-1                =       combat support bs fire-1
+                        crouch support bs melee-strike-1        =       combat support bs melee-strike-1
+                        crouch support bs melee-strike-2        =       combat support bs melee-strike-2
+                        crouch support bs melee-strike-3        =       combat support bs melee-strike-3
+                        crouch support bs reload-1              =       combat support bs reload-1
+			crouch support any melee-strike-1       =       combat support bs melee-strike-1
+
+                ;; warthog_p
+
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; SUPPORT : LO : DISINTEGRATOR ;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; combat
+                        combat support ds melee-strike-1        =       combat support bs melee-strike-1
+			combat support ds idle		        =       combat support idle
+			combat support ds grip			=	combat support bs grip
+		;; crouch
+			crouch support ds fire-1 var1	        =       combat support ds fire-1 var1
+			crouch support ds fire-1 var2	        =       combat support ds fire-1 var2
+			crouch support ds fire-1 var3	        =       combat support ds fire-1 var3
+			crouch support ds fire-1 var4	        =       combat support ds fire-1 var4
+			crouch support ds fire-1 var5	        =       combat support ds fire-1 var5
+			crouch support ds fire-1 var6	        =       combat support ds fire-1 var6
+			crouch support ds grip			=	combat support bs grip
+			crouch support bs grip			=	combat support bs grip
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; MULTIPLAYER : FLAG ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch flag melee-strike-1       =      combat flag melee-strike-1
+                        crouch flag melee-strike-2       =      combat flag melee-strike-2
+
+                ;; warthog_p
+                        warthog_p flag melee-strike-1   =      combat flag melee-strike-1
+                        warthog_p flag melee-strike-2   =      combat flag melee-strike-2
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; MULTIPLAYER : BALL ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch ball melee-strike-1       =              combat ball melee-strike-1
+                        crouch ball melee-strike-2       =              combat ball melee-strike-2
+                        crouch ball melee-strike-3       =              combat ball melee-strike-3
+
+                ;; warthog_p
+                        warthog_p ball melee-strike-1   =              combat ball melee-strike-1
+                        warthog_p ball melee-strike-2   =              combat ball melee-strike-2
+                        warthog_p ball melee-strike-3   =              combat ball melee-strike-3
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; MULTIPLAYER : BOMB ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                ;; crouch
+                        crouch bomb melee-strike-1       =              combat ball melee-strike-1
+                        crouch bomb melee-strike-2       =              combat ball melee-strike-2
+                        crouch bomb melee-strike-3       =              combat ball melee-strike-3
+
+                ;; warthog_p
+                        warthog_p bomb melee-strike-1   =              combat ball melee-strike-1
+                        warthog_p bomb melee-strike-2   =              combat ball melee-strike-2
+                        warthog_p bomb melee-strike-3   =              combat ball melee-strike-3
+
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; TURRET MP ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+			c_turret_mp_d enter		=	h_turret_mp_d enter
+			c_turret_mp_d exit		=	h_turret_mp_d exit
+			c_turret_mp_d aim-still-up	=	h_turret_mp_d aim-still-up
+			c_turret_mp_d fire-1		=	h_turret_mp_d fire-1
+			c_turret_mp_d idle		=	h_turret_mp_d idle
+
+;;#################################################################################################################################
+;;##### VEHICLES ##################################################################################################################
+;;#################################################################################################################################
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; VEHICLE : ENTER ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;     
+
+
+               
+
+                scorpion_p_l02 enter            =       warthog_d enter
+                scorpion_p_r01 enter            =       warthog_d enter
+                scorpion_p_r02 enter            =       warthog_d enter
+
+               
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; VEHICLE : EXIT ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                
+
+
+                scorpion_p_l02 exit             =       warthog_d exit
+                scorpion_p_r01 exit             =       warthog_d exit
+                scorpion_p_r02 exit             =       warthog_d exit
+
+                
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; VEHICLE : IDLE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+               
+
+
+                scorpion_p_l02 unarmed idle             =       combat sword idle
+                scorpion_p_r01 unarmed idle             =       combat sword idle
+                scorpion_p_r02 unarmed idle             =       combat sword idle
+
+               
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; VEHICLE : LOOK ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+ 
+                scorpion_p_l02 look             =       combat look
+                scorpion_p_r01 look             =       combat look
+                scorpion_p_r02 look             =       combat look
+
+
+                wraith_d look                   =       combat look
+
+                warthog_p look                  =       combat look
+
+                ghost_d look                    =       combat look
+
+                spectre_d look                  =       combat look
+                spectre_g look                  =       combat look
+                spectre_p_l look                =       combat look
+                spectre_p_r look                =       combat look
+
+                spectre_p_l support fire-1      =       combat support bs fire-1
+                spectre_p_l rifle fire-1        =       combat rifle br fire-1
+                spectre_p_l pistol fire-1       =       combat pistol pp fire-1
+                spectre_p_l missile fire-1      =       combat missile rl fire-1
+
+                spectre_p_r support fire-1      =       combat support bs fire-1
+                spectre_p_r rifle fire-1        =       combat rifle br fire-1
+                spectre_p_r pistol fire-1       =       combat pistol pp fire-1
+                spectre_p_r missile fire-1      =       combat missile rl fire-1
+                
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;; VEHICLE : BOARDING ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;                
+
+
+		;throne_b_l acc-front-back             =		scorpion_b_b acc-front-back    
+		;throne_b_l acc-left-right             =		scorpion_b_b acc-left-right    
+		;throne_b_l acc-up-down                =		scorpion_b_b acc-up-down       
+		;throne_b_l enter                      =		scorpion_b_b enter             
+		;throne_b_l exit                       =		scorpion_b_b exit              
+		;throne_b_l melee var0                 =		scorpion_b_b melee var0        
+		;throne_b_l throw-grenade var0         =		scorpion_b_b throw-grenade var0
+		;throne_b_l unarmed idle	       =		scorpion_b_b unarmed idle      
+		
+		;throne_b_r acc-front-back             =		scorpion_b_b acc-front-back    
+		;throne_b_r acc-left-right             =		scorpion_b_b acc-left-right    
+		;throne_b_r acc-up-down                =		scorpion_b_b acc-up-down       
+		;throne_b_r enter                      =		scorpion_b_b enter             
+		;throne_b_r exit                       =		scorpion_b_b exit              
+		;throne_b_r melee var0                 =		scorpion_b_b melee var0        
+		;throne_b_r throw-grenade var0         =		scorpion_b_b throw-grenade var0
+		;throne_b_r unarmed idle	       =		scorpion_b_b unarmed idle      
