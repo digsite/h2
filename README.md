@@ -9,6 +9,10 @@ Note that this project is NOT open source. You are not granted any rights to use
 * https://www.halowaypoint.com/news/mccs-eula-the-faq
 * https://www.xbox.com/en-us/developers/rules
 
+# Issues
+
+Please use the dedicated bug tracker to report issues with the content in this repository: https://github.com/digsite/issues
+
 # Credits
 ## Digsite Crew
 * Ken
