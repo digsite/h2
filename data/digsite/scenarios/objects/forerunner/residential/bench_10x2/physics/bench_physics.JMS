@@ -1,0 +1,148 @@
+;### VERSION ###
+8208
+
+;### NODES ###
+0
+;	<name>
+;	<parent node index>
+;	<default rotation <i,j,k,w>>
+;	<default translation <x,y,z>>
+
+;### MATERIALS ###
+1
+;	<name>
+;	<material name>
+
+;MATERIAL 0
+hard_metal_solid_for
+(1) 
+
+;### MARKERS ###
+0
+;	<name>
+;	<node index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### INSTANCE XREF PATHS ###
+0
+;	<path>
+;	<name>
+
+;### INSTANCE MARKERS ###
+0
+;	<name>
+;	<unique identifier>
+;	<path index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+
+;### VERTICES ###
+0
+;	<position>
+;	<normal>
+;	<node influences count>
+;		<node influences <index, weight>>
+;		<...>
+;	<texture coordinate count>
+;		<texture coordinates <u,v>>
+;		<...>
+
+;### TRIANGLES ###
+0
+;	<material index>
+;	<vertex indices <v0,v1,v2>>
+
+;### SPHERES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### BOXES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<width (x)>
+;	<length (y)>
+;	<height (z)>
+
+;### CAPSULES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<height>
+;	<radius>
+
+;### CONVEX SHAPES ###
+2
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<vertex count>
+;	<...vertices>
+
+;CONVEX SHAPE 0
+_bench_10'x2'_a
+-1
+0
+0.000000	0.000000	0.000000	-1.000000
+-0.000244	20.000000	-9.000000
+6
+20.000004	29.999996	11.000001
+14.000005	16.999996	-10.999998
+19.999994	-30.000004	11.000001
+-19.999996	30.000002	10.999999
+-13.999992	17.000002	-11.000000
+-20.000006	-29.999998	10.999999
+
+;CONVEX SHAPE 1
+_bench_10'x2'_b
+-1
+0
+0.000000	0.000000	0.000000	-1.000000
+-0.000237	-19.999994	-8.999999
+6
+-20.000002	-29.999998	11.000000
+-13.999995	-17.000000	-11.000000
+-19.999996	30.000002	11.000000
+19.999998	-30.000002	10.999998
+14.000001	-17.000000	-11.000001
+20.000004	29.999998	10.999998
+
+;### RAGDOLLS ###
+0
+;	<attached index>
+;	<referenced index>
+;	<attached transform>
+;	<reference transform>
+;	<min twist>
+;	<max twist>
+;	<min cone>
+;	<max cone>
+;	<min plane>
+;	<max plane>
+
+;### HINGES ###
+0
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min angle>
+;	<max angle
+

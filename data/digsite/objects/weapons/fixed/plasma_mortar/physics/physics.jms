@@ -1,0 +1,157 @@
+;### VERSION ###
+8209
+
+;### NODES ###
+0
+;	<name>
+;	<parent node index>
+;	<default rotation <i,j,k,w>>
+;	<default translation <x,y,z>>
+
+;### MATERIALS ###
+1
+;	<name>
+;	<material name>
+
+;MATERIAL 0
+hard_metal_thin_cov_weapon
+(1) base gun
+
+;### MARKERS ###
+0
+;	<name>
+;	<node index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### INSTANCE XREF PATHS ###
+0
+;	<path>
+;	<name>
+
+;### INSTANCE MARKERS ###
+0
+;	<name>
+;	<unique identifier>
+;	<path index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+
+;### VERTICES ###
+0
+;	<position>
+;	<normal>
+;	<node influences count>
+;		<node influences <index, weight>>
+;		<...>
+;	<texture coordinate count>
+;		<texture coordinates <u,v>>
+;		<...>
+
+;### TRIANGLES ###
+0
+;	<material index>
+;	<vertex indices <v0,v1,v2>>
+
+;### SPHERES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### BOXES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<width (x)>
+;	<length (y)>
+;	<height (z)>
+
+;### CAPSULES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<height>
+;	<radius>
+
+;### CONVEX SHAPES ###
+2
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<vertex count>
+;	<...vertices>
+
+;CONVEX SHAPE 0
+phys_plasma_mortar
+-1
+0
+-0.6123724580	-0.6123724580	-0.3535533845	-0.3535533547
+15.7480592728	0.0000000000	39.9171447754
+8
+-10.0000000000	-30.0000000000	-0.0000002059
+10.0000000000	-30.0000000000	-0.0000002059
+-10.0000000000	30.0000000000	-0.0000002059
+10.0000000000	30.0000000000	-0.0000002059
+-10.0000000000	-30.0000000000	7.3440275192
+10.0000000000	-30.0000000000	7.3440275192
+-10.0000000000	30.0000000000	7.3440275192
+10.0000000000	30.0000000000	7.3440275192
+
+;CONVEX SHAPE 1
+phy_plasma_mortar_base
+-1
+0
+0.0000000000	0.0000000000	0.3826833367	-0.9238795638
+0.4475021958	0.0000000000	0.3821786344
+8
+-14.9999990463	-14.9999990463	-0.3821786344
+14.9999990463	-14.9999990463	-0.3821786344
+-14.9999990463	14.9999990463	-0.3821786344
+14.9999990463	14.9999990463	-0.3821786344
+-7.1001715660	-7.1001715660	9.6178216934
+7.1001715660	-7.1001715660	9.6178216934
+-7.1001715660	7.1001715660	9.6178216934
+7.1001715660	7.1001715660	9.6178216934
+
+;### RAGDOLLS ###
+0
+;	<attached index>
+;	<referenced index>
+;	<attached transform>
+;	<reference transform>
+;	<min twist>
+;	<max twist>
+;	<min cone>
+;	<max cone>
+;	<min plane>
+;	<max plane>
+
+;### HINGES ###
+0
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min angle>
+;	<max angle
+
+;### BOUNDING SPHERE ###
+0
+;	<translation <x,y,z>>
+;	<radius>
+

@@ -1,0 +1,374 @@
+;### VERSION ###
+8210
+;	<8197-8210>
+
+;### NODES ###
+1
+;	<name>
+;	<parent node index>
+;	<default rotation <i,j,k,w>>
+;	<default translation <x,y,z>>
+
+;NODE 0
+frame root
+-1
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+0.0000000000	-0.5000000000	0.0000000000
+
+;### MATERIALS ###
+1
+;	<name>
+;	<(Material Slot Index) LOD Permutation Region>
+
+;MATERIAL 0
+mb metal_generic
+(1) Default Default
+
+;### MARKERS ###
+0
+;	<name>
+;	<node index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### INSTANCE XREF PATHS ###
+0
+;	<path to asset file>
+;	<name>
+
+;### INSTANCE MARKERS ###
+0
+;	<name>
+;	<unique identifier>
+;	<path index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+
+;### VERTICES ###
+0
+;	<position>
+;	<normal>
+;	<node influences count>
+;		<index>
+;		<weight>
+;	<texture coordinate count>
+;		<texture coordinates <u,v>>
+
+;### TRIANGLES ###
+0
+;	<material index>
+;	<vertex indices <v0,v1,v2>>
+
+;### SPHERES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### BOXES ###
+20
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<width (x)>
+;	<length (y)>
+;	<height (z)>
+
+;BOXES 0
+phys_floor
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-5.0000000000	0.5000000000	-12.5126266479
+188.0000000000
+154.0000000000
+9.1405181885
+
+;BOXES 1
+phys_ceiling
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-5.0000000000	-63.6870040894	116.9999923706
+188.0000000000
+25.6260032654
+5.9999847412
+
+;BOXES 2
+phys_ceiling_03
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-89.5000000000	-20.1870117188	116.9999847412
+19.0000000000
+61.3740348816
+6.0000076294
+
+;BOXES 3
+phys_ceiling_01
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+36.0162887573	-20.1870117188	116.9999847412
+105.9674224854
+61.3740348816
+6.0000076294
+
+;BOXES 4
+phys_ceiling_02
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-5.0000000000	43.9999961853	116.9999923706
+188.0000000000
+67.0000000000
+5.9999847412
+
+;BOXES 5
+phys_front
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+84.4999618530	-57.9999694824	53.0288162231
+9.0000991821
+37.0002136230
+121.9423675537
+
+;BOXES 6
+phys_front_01
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+84.4999694824	0.5000324249	98.9459533691
+9.0000991821
+80.0002441406
+30.1081008911
+
+;BOXES 7
+phys_front_02
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+84.4999618530	59.0000305176	53.0288200378
+9.0000991821
+36.9999923706
+121.9423675537
+
+;BOXES 8
+phys_back_02
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-94.5000000000	65.5000000000	53.0288162231
+9.0000000000
+23.9999923706
+121.9423675537
+
+;BOXES 9
+phys_back_03
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-94.5000000000	0.4999980927	98.9459533691
+9.0000000000
+106.0000076294
+30.1081008911
+
+;BOXES 10
+phys_back_01
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-94.5000000000	0.4999980927	15.3373451233
+9.0000000000
+106.0000076294
+46.5594253540
+
+;BOXES 11
+phys_back
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-94.5000000000	-64.5000000000	53.0288162231
+9.0000000000
+24.0000038147
+121.9423675537
+
+;BOXES 12
+phys_left_02
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+69.7381134033	74.0000000000	53.0288124084
+20.5236930847
+7.0000000000
+121.9423675537
+
+;BOXES 13
+phys_right
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-76.1948013306	-73.3889007568	53.0288124084
+27.6103973389
+7.0000000000
+121.9423675537
+
+;BOXES 14
+phys_left_03
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-1.4566669464	74.0000000000	98.9459457397
+121.8659057617
+7.0000000000
+30.1081008911
+
+;BOXES 15
+phys_right_01
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-1.4566497803	-73.3889007568	15.3373432159
+121.8659057617
+7.0000000000
+46.5594253540
+
+;BOXES 16
+phys_right_02
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+69.7381134033	-73.3889007568	53.0288124084
+20.5236930847
+7.0000000000
+121.9423675537
+
+;BOXES 17
+phys_left
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-76.1948013306	74.0000000000	53.0288124084
+27.6103973389
+7.0000000000
+121.9423675537
+
+;BOXES 18
+phys_right_03
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-1.4566669464	-73.3889007568	98.9459457397
+121.8659057617
+7.0000000000
+30.1081008911
+
+;BOXES 19
+phys_left_01
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-1.4566497803	74.0000000000	15.3373432159
+121.8659057617
+7.0000000000
+46.5594253540
+
+;### CAPSULES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<height>
+;	<radius>
+
+;### CONVEX SHAPES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<vertex count>
+;	<...vertices>
+
+;### RAGDOLLS ###
+0
+;	<name>
+;	<attached index>
+;	<referenced index>
+;	<attached transform>
+;	<reference transform>
+;	<min twist>
+;	<max twist>
+;	<min cone>
+;	<max cone>
+;	<min plane>
+;	<max plane>
+
+;### HINGES ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min angle>
+;	<max angle>
+
+;### CAR WHEEL ###
+0
+;	<name>
+;	<chassis index>
+;	<wheel index>
+;	<chassis transform>
+;	<wheel transform>
+;	<suspension transform>
+;	<suspension min limit>
+;	<suspension max limit>
+;	<friction limit>
+;	<velocity>
+;	<gain>
+
+;### POINT TO POINT ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<constraint type>
+;	<x min limit>
+;	<x max limit>
+;	<y min limit>
+;	<y max limit>
+;	<z min limit>
+;	<z max limit>
+;	<spring length>
+
+;### PRISMATIC ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min limit>
+;	<max limit>
+
+;### BOUNDING SPHERE ###
+0
+;	<translation <x,y,z>>
+;	<radius>
