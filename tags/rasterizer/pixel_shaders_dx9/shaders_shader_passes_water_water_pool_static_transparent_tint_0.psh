@@ -1,0 +1,50 @@
+#const C8.a= $water_opacity
+#const C9.rgb= $water_tint_color
+
+sampler2D s0 : register(S0);
+samplerCUBE s1 : register(S1);
+sampler2D s2 : register(S2);
+sampler2D s3 : register(S3);
+float4 bumpenv1 : register(C0);
+float4 bumpenv2 : register(C1);
+float4 bumpenv3 : register(C2);
+float4 opacity : register(C8);
+float4 tint : register(C9);
+float4 main(
+    float2 tc0 : TEXCOORD0,
+    float3 tc1 : TEXCOORD1,
+    float2 tc2 : TEXCOORD2,
+    float2 tc3 : TEXCOORD3,
+    float4 color0 : COLOR0,
+    float4 color1 : COLOR1
+) : COLOR
+{
+	// get bump map to do a texbem with
+    float4 bump= tex2D(s0, tc0);
+	
+	// texbem on the reflection map
+    tc1.x = tc1.x + bumpenv1.r*bump.r + bumpenv1.g*bump.g;
+    tc1.y = tc1.y + bumpenv1.b*bump.r + bumpenv1.a*bump.g;
+ 
+    // texbem on the refraction map
+    tc2.x = tc2.x + bumpenv2.r*bump.r + bumpenv2.g*bump.g;
+    tc2.y = tc2.y + bumpenv2.b*bump.r + bumpenv2.a*bump.g;
+
+    // texbem on the fresnel map
+    tc3.x = tc3.x + bumpenv3.r*bump.r + bumpenv3.g*bump.g;
+    tc3.y = tc3.y + bumpenv3.b*bump.r + bumpenv3.a*bump.g;
+
+	// get the textures using the modified texture coordinates    
+	float4 reflection= texCUBE(s1, tc1);
+	float4 refraction= tex2D(s2, tc2);
+	float4 fresnel= tex2D(s3, tc3);
+	
+	float4 blended;
+	// blend reflection and refraction
+	blended.rgb = tint.rgb*lerp(refraction.rgb, reflection.rgb, fresnel.a);
+	
+	// output alpha is just refraction alpha
+	blended.a = lerp(fresnel.a, 1, opacity.a);
+	
+	return blended;
+}
