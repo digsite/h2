@@ -1,0 +1,228 @@
+
+; <- this character indicates a comment, blank lines are okay too
+;
+; each shader collection is a named directory that the environment importing process
+; knows to look in for shaders - each line in this file has the format
+;
+; abbreviation	tag directory
+;
+; do not remove this first entry, it specifies the default place to look
+
+*           scenarios\shaders
+
+; ========== general-purpose shaders (invisible collision geometry, etc)
+g           scenarios\shaders\generic
+n           scenarios\shaders\nature
+m           scenarios\shaders\multi
+shared      scenarios\shaders\shared\shaders
+ui          scenarios\shaders\ui
+mainmenu    scenarios\shaders\ui\mainmenu
+
+; ========== forerunner shaders
+f           scenarios\shaders\forerunner
+f_if        scenarios\shaders\forerunner\industrial\floors
+f_ig        scenarios\shaders\forerunner\industrial\glass
+f_il        scenarios\shaders\forerunner\industrial\lights
+f_im        scenarios\shaders\forerunner\industrial\metals
+f_it        scenarios\shaders\forerunner\industrial\tech
+
+
+; ========== covenant shaders
+c           scenarios\shaders\covenant
+c_mm        scenarios\shaders\covenant\military\metals
+c_mt        scenarios\shaders\covenant\military\tech
+
+; ========== human shaders
+h           scenarios\shaders\human
+h_um        scenarios\shaders\human\urban\metals
+h_ug        scenarios\shaders\human\urban\glass
+h_ugrnd     scenarios\shaders\human\urban\ground
+h_up        scenarios\shaders\human\urban\pavers
+            
+; ========== nature shaders
+tre         scenarios\shaders\nature\trees
+flo         scenarios\shaders\nature\flora
+
+; ========== level-specific shaders
+dune        scenarios\shaders\multi\dune
+ag          scenarios\shaders\solo\alphagasgiant
+moon        scenarios\shaders\solo\alphamoon
+cont        scenarios\shaders\solo\controlroom
+dt          scenarios\shaders\solo\deltatemple
+ark         scenarios\shaders\solo\earthark
+city        scenarios\shaders\solo\earthcity
+city_nm     scenarios\shaders\solo\earthcity\new_mombassa
+ship        scenarios\shaders\solo\forerunnership
+grave       scenarios\shaders\solo\gravemind
+high        scenarios\shaders\solo\highcharity
+fort        scenarios\shaders\solo\sentinelfortress
+dcr         scenarios\shaders\solo\deltacontrolroom
+hq          scenarios\shaders\solo\sentinelhq
+ss          scenarios\shaders\solo\spacestation
+long        scenarios\shaders\multi\headlong
+burial      scenarios\shaders\multi\burial_mounds
+shared      scenarios\shaders\shared
+ww          scenarios\shaders\multi\waterworks
+tri         scenarios\shaders\multi\triplicate
+ascent      scenarios\shaders\multi\ascension
+zanzibar    scenarios\shaders\multi\zanzibar
+colo        scenarios\shaders\multi\colossus
+lo          scenarios\shaders\multi\lockout
+cy          scenarios\shaders\multi\cyclotron
+coag        scenarios\shaders\multi\halo\coagulation
+bc          scenarios\shaders\multi\halo\beavercreek
+bw          scenarios\shaders\multi\backwash
+tu          scenarios\shaders\multi\turf
+cmt         scenarios\shaders\multi\containment
+el          scenarios\shaders\multi\elongation
+sc          scenarios\shaders\multi\deltatap
+gem         scenarios\shaders\multi\marathon\gemini
+pris        scenarios\shaders\multi\convict
+rat         scenarios\shaders\multi\rodentia
+
+; ========== level-specific shaders (H2V/MCC)
+needle      scenarios\shaders\multi\needle
+converge    scenarios\shaders\multi\convergence
+sweep       scenarios\shaders\multi\street_sweeper
+
+; ========== object shaders for bsp geometry
+
+ob          scenarios\objects
+sky         scenarios\skies
+multi       objects\multi
+
+; ========== test level shaders
+oddiology                    scenarios\shaders\test\oddiology
+test                         scenarios\shaders\test
+box                          scenarios\shaders\test\box
+beaver                       scenarios\shaders\test\beavercreek
+blood                        scenarios\shaders\test\bloodgulch
+mg                           scenarios\shaders\test\meat_grinder
+xf                           scenarios\shaders\test\xfest
+oasis                        scenarios\shaders\test\bitoasis
+test_decal                   scenarios\shaders\test\test_decal
+test_shaders                 scenarios\shaders\test\test_shaders
+test_bump                    scenarios\shaders\test\test_bump
+test_encounter               scenarios\shaders\test\test_encounter
+test_weapons                 scenarios\shaders\test\test_weapons
+test_characters              scenarios\shaders\test\test_characters
+cornell_box                  scenarios\shaders\test\cornell_box
+m1                           scenarios\shaders\test\m1_assault
+ai_test                      scenarios\shaders\test\ai_test
+test_gravemind               scenarios\shaders\test\test_gravemind
+blue_screen                  scenarios\shaders\test\blue_screen
+uv_zero                      scenarios\shaders\test\uv_zero
+test_portal                  scenarios\shaders\test\test_portal
+darktown                     scenarios\shaders\test\darktown
+test_airfield                scenarios\shaders\test\test_airfield
+test_box                     scenarios\shaders\test\test_box
+room1                        scenarios\test\room1
+
+potato                       test\potato
+illuminati                   test\illuminati
+anim_tex                     test\anim_tex
+biped_lair                   test\biped_lair
+clamp                        test\clamp
+light_box                    test\light_box
+destructo                    test\destructo
+origin_node                  test\origin_node
+object_lighting              test\object_lighting
+lensflare                    test\lensflare
+overlay                      test\overlay
+skybox                       test\skybox
+collision_bit                test\collision_bit
+color_functions              test\color_functions
+blackbox                     test\blackbox
+barn                         test\barn
+lightmap_only                test\lightmap_only
+bernie_box                   test\bernie_box
+marker_test                  test\marker_test
+change_colors                test\change_colors
+portal_simple                test\portal_simple
+landscape                    test\landscape
+meter_shaders                test\meter_shaders
+plasma_shaders               test\plasma_shaders
+compression                  test\compression
+lamp                         test\lamp
+nato                         test\nato
+boneyard                     test\boneyard
+tess                         test\tess
+twinkle                      test\twinkle
+bloom_box                    test\bloom_box
+bitmap_test                  test\bitmap_test
+plain                        test\plain
+lightmap                     test\lightmap
+reflections                  test\reflections
+snow                         test\snow
+sample                       test\sample
+fuse                         test\fuse
+quiet_room                   test\quiet_room
+cupertino                    test\cupertino
+skin                         test\skin
+earache                      test\earache
+objects_templates            test\objects_templates
+tangent_seams                test\tangent_seams
+gravemind_lair               test\gravemind_lair
+havok_visibility             test\havok_visibility
+shader_lod                   test\shader_lod
+multiple_sky                 test\multiple_sky
+fog_check                    test\fog_check
+ass_visibility               test\ass_visibility
+fog_plane                    test\fog_plane
+fog_bank                     test\fog_bank
+fog_multi_plane              test\fog_multi_plane
+decorators                   test\decorators
+trace_shaders                test\trace_shaders
+lightmap_translucency        test\lightmap_translucency
+object_region_speed_trial    test\object_region_speed_trial
+conveyor_belt_test           test\conveyor_belt_test
+build_verification           test\build_verification
+potential_visibility_set     test\potential_visibility_set
+secondary_fog                test\secondary_fog
+directional_portal           test\directional_portal
+emblems                      test\emblems
+paul                         test\paul
+toast                        test\toast
+breakable_floor              test\breakable_floor
+ragdoll                      test\ragdoll
+fog_multiple_planes          test\fog_multiple_planes
+giant                        test\giant
+miami                        test\miami
+ocean_floor                  test\ocean_floor
+gel_light                    test\gel_light
+hive                         test\hive
+active_camo                  test\active_camo
+fog_bowl                     test\fog_bowl
+emissive                     test\emissive
+water_lightmap               test\water_lightmap
+flood                        test\flood
+effects_test                 test\effects_test
+empty_sky_box                test\empty_sky_box
+decals                       test\decals
+water                        test\water
+mirror                       test\mirrored_uv
+
+; ========== forerunner shaders (Digsite)
+d_f           digsite\scenarios\shaders\forerunner
+d_f_im        digsite\scenarios\shaders\forerunner\industrial\metals
+
+; ========== nature shaders (Digsite)
+d_tre         digsite\scenarios\shaders\nature\trees
+
+; ========== level-specific shaders (Digsite)
+mb       digsite\scenarios\shaders\solo\moonbase
+h2d      digsite\scenarios\shaders\solo\h2defense
+m1a		 digsite\scenarios\shaders\solo\m1_assault
+tl       digsite\scenarios\shaders\multi\halopc\timberland
+der		 scenarios\shaders\multi\halo\derelict
+sol		 digsite\scenarios\shaders\multi\solitude
+over	 digsite\scenarios\shaders\multi\overboard
+
+; ========== object shaders for bsp geometry (Digsite)
+d_ob			digsite\scenarios\objects
+pt				objects\characters\prophet\shaders
+gt				objects\vehicles\gravity_throne\shaders
+
+; ========== test level shaders (Digsite)
+incom						 incompetent\shaders
+d_incom						 digsite\incompetent\shaders
