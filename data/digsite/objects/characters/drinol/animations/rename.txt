@@ -1,0 +1,65 @@
+s-ping front l-arm=s-ping front l-hand var1
+s-ping left l-leg=s-ping front l-leg
+s-ping left r-leg=s-ping front r-leg
+s-ping right r-leg=s-ping front r-leg
+s-ping right l-leg=s-ping front l-leg
+
+crouch unarmed airborne=combat unarmed airborne
+crouch unarmed land-hard=combat unarmed land-hard
+crouch unarmed land-soft=combat unarmed land-soft
+
+
+CD-passengerL02 exit var1=CD-passengerL01 exit var1
+
+CD-passengerL03 exit var1=CD-passengerL01 exit var1
+
+CD-passengerL04 exit var1=CD-passengerL01 exit var1
+
+CD-passengerR01 exit var1=CD-passengerL01 exit var1
+
+CD-passengerR02 exit var1=CD-passengerL01 exit var1
+
+CD-passengerR03 exit var1=CD-passengerL01 exit var1
+
+CD-passengerR04 exit var1=CD-passengerL01 exit var1
+
+patrol unarmed aim-move-down=combat unarmed aim-still-up
+patrol unarmed aim-move-up=combat unarmed aim-still-up
+patrol unarmed aim-still-down=combat unarmed aim-still-up
+patrol unarmed aim-still-up=combat unarmed aim-still-up
+
+crouch unarmed aim-move-down=combat unarmed aim-still-up
+crouch unarmed aim-move-up=combat unarmed aim-still-up
+crouch unarmed aim-still-down=combat unarmed aim-still-up
+crouch unarmed aim-still-up=combat unarmed aim-still-up
+
+combat unarmed aim-move-down=combat unarmed aim-still-up
+combat unarmed aim-move-up=combat unarmed aim-still-up
+combat unarmed aim-still-down=combat unarmed aim-still-up
+
+crouch look=combat look
+
+combat unarmed dive-front=crouch unarmed move-front
+combat unarmed dive-left=crouch unarmed move-left
+combat unarmed dive-right=crouch unarmed move-right
+
+combat unarmed move-back=crouch unarmed move-back
+combat unarmed move-left=crouch unarmed move-left
+combat unarmed move-right=crouch unarmed move-right
+
+crouch unarmed dive-front=crouch unarmed move-front
+crouch unarmed dive-left=crouch unarmed move-left
+crouch unarmed dive-right=crouch unarmed move-right
+
+patrol unarmed dive-front=crouch unarmed move-front
+patrol unarmed dive-left=crouch unarmed move-left
+patrol unarmed dive-right=crouch unarmed move-right
+
+patrol unarmed move-back=crouch unarmed move-back
+patrol unarmed move-left=crouch unarmed move-left
+patrol unarmed move-right=crouch unarmed move-right
+
+patrol unarmed move-front=combat unarmed move-front
+patrol unarmed turn-left=combat unarmed turn-left
+patrol unarmed turn-right=combat unarmed turn-right
+patrol unarmed idle=combat unarmed idle var1
