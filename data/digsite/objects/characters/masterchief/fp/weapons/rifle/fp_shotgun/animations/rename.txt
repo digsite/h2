@@ -1,0 +1,13 @@
+;; FP : MASTERCHIEF : SHOTGUN
+
+;; SINGLE SHOTGUN --------------------------
+
+;;first-person reload-full  	=	first-person reload-empty
+
+
+first-person reload-continue-full		=	first-person reload-continue-empty
+first-person reload-empty			=	first-person reload-continue-empty
+first-person reload-full			=	first-person reload-continue-empty
+
+first-person exit-full				=	first-person reload-exit
+first-person exit-empty				=	first-person reload-exit

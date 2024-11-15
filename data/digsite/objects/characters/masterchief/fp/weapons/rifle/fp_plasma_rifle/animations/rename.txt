@@ -1,0 +1,3 @@
+;first-person reload-empty=first-person reload-full
+
+first-person dual misfire-1 var0 = first-person dual fire-1 var0

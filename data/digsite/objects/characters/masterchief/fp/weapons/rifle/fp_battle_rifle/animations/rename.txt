@@ -1,0 +1,1 @@
+;first-person fire-2 var1	=	first-person fire-1 var1

@@ -1,0 +1,9 @@
+;; FP : MASTERCHIEF : SMG
+
+;; SINGLE SMG --------------------------
+
+
+
+;; DUAL SMG ----------------------------
+
+first-person dual reload-empty var0		=	first-person dual reload-full var0

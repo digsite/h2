@@ -1,0 +1,7 @@
+;; single
+first-person reload-empty	=	first-person overheated
+first-person reload-full	=	first-person overheated
+
+;; dual
+first-person dual reload-empty	=	first-person dual overheated
+first-person dual reload-full	=	first-person dual overheated
