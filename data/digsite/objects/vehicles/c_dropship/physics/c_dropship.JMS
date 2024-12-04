@@ -1,0 +1,254 @@
+;### VERSION ###
+8210
+;	<8197-8210>
+
+;### NODES ###
+3
+;	<name>
+;	<parent node index>
+;	<default rotation <i,j,k,w>>
+;	<default translation <x,y,z>>
+
+;NODE 0
+b_root
+-1
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+53.3788032532	0.0000000000	227.6289978027
+
+;NODE 1
+b_bay_door_left
+0
+0.5609857440	-0.5609858036	0.4304589927	0.4304589927
+149.3315887451	195.9683532715	169.7818908691
+
+;NODE 2
+b_bay_door_right
+0
+0.4304588735	0.4304588735	-0.5609859228	0.5609858632
+149.3315277100	-194.6944580078	169.7818908691
+
+;### MATERIALS ###
+1
+;	<name>
+;	<material name>
+
+;MATERIAL 0
+metal
+(5) unnamed Default
+
+;### MARKERS ###
+0
+;	<name>
+;	<node index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### INSTANCE XREF PATHS ###
+0
+;	<name>
+
+;### INSTANCE MARKERS ###
+0
+;	<name>
+;	<unique identifier>
+;	<path index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+
+;### VERTICES ###
+0
+;	<position>
+;	<normal>
+;	<node influences count>
+;		<node influences <index, weight>>
+;		<...>
+;	<texture coordinate count>
+;		<texture coordinates <u,v>>
+;		<...>
+
+;### TRIANGLES ###
+0
+;	<material index>
+;	<vertex indices <v0,v1,v2>>
+
+;### SPHERES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### BOXES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<width (x)>
+;	<length (y)>
+;	<height (z)>
+
+;### CAPSULES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<height>
+;	<radius>
+
+;### CONVEX SHAPES ###
+3
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<vertex count>
+;	<...vertices>
+
+;CONVEX 0
+physics_hull
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-257.4915771484	0.0000039560	-32.8719482422
+27
+166.2948150635	-129.9555969238	115.4614562988
+166.2948303223	129.9556427002	115.4614562988
+166.2948303223	129.9556732178	-40.6170310974
+182.7376251221	44.3218345642	-109.4307861328
+182.7376251221	49.5385856628	171.8626556396
+166.2948150635	-129.9556274414	-40.6170234680
+18.0070343018	49.5385856628	171.8626861572
+182.7376098633	-49.5385780334	171.8626556396
+18.0070343018	-129.9555969238	115.4614562988
+182.7376098633	-49.5385894775	-58.7281303406
+-242.7730102539	-42.6680412292	46.1675796509
+-242.7729187012	38.0304374695	-109.4307403564
+-242.7730102539	-38.0304679871	-109.4307556152
+182.7376098633	-44.3218536377	-109.4308013916
+182.7376251221	49.5385932922	-58.7281303406
+-180.3045043945	18.5694656372	-171.0175170898
+-180.3045349121	-18.5695095062	-171.0175628662
+-242.7729187012	42.6680526733	46.1675796509
+18.0070343018	129.9556427002	115.4614562988
+-69.3965148926	42.6680870056	149.1882019043
+18.0070343018	-129.9555969238	-40.6171379089
+18.0070343018	-49.5385780334	171.8626861572
+-69.3965454102	-42.6680603027	149.1882019043
+-123.6642456055	-0.0000339560	-174.9381866455
+-137.7448120117	-124.3807754517	-152.6935882568
+-137.7447814941	124.3807220459	-152.6935882568
+18.0070343018	129.9556427002	-40.6171379089
+
+;CONVEX 1
+physics_right_fork
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+84.8724060059	-210.7470092773	4.5502624512
+8
+324.3569641113	80.7913970947	78.0392532349
+-324.3569335938	-80.7913818359	28.6585903168
+324.3569641113	-80.7913818359	28.6585903168
+-324.3569335938	-80.7913818359	-28.6585483551
+-324.3569335938	80.7914123535	78.0392532349
+-324.3569335938	80.7914123535	-78.0393447876
+324.3569641113	80.7913665771	-78.0392379761
+324.3569641113	-80.7913818359	-28.6585483551
+
+;CONVEX 2
+physics_left_fork
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+84.8723602295	210.7470245361	4.5502471924
+8
+324.3569335938	80.7913665771	28.6585807800
+324.3569335938	-80.7913818359	78.0392608643
+-324.3569030762	80.7913665771	-28.6585578918
+-324.3569030762	-80.7913818359	78.0392608643
+-324.3569030762	-80.7913818359	-78.0393371582
+-324.3569030762	80.7913665771	28.6585807800
+324.3569335938	80.7913665771	-28.6585578918
+324.3569335938	-80.7913513184	-78.0392456055
+
+;### RAGDOLLS ###
+0
+;	<name>
+;	<attached index>
+;	<referenced index>
+;	<attached transform>
+;	<reference transform>
+;	<min twist>
+;	<max twist>
+;	<min cone>
+;	<max cone>
+;	<min plane>
+;	<max plane>
+
+;### HINGES ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min angle>
+;	<max angle>
+
+;### HINGES ###
+0
+;	<name>
+;	<chassis index>
+;	<wheel index>
+;	<chassis transform>
+;	<wheel transform>
+;	<suspension transform>
+;	<suspension min limit>
+;	<suspension max limit>
+;	<friction limit>
+;	<velocity>
+;	<gain>
+
+;### POINT TO POINT ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<constraint type>
+;	<x min limit>
+;	<x max limit>
+;	<y min limit>
+;	<y max limit>
+;	<z min limit>
+;	<z max limit>
+;	<spring length>
+
+;### PRISMATIC ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min limit>
+;	<max limit>
+
+;### BOUNDING SPHERE ###
+0
+;	<translation <x,y,z>>
+;	<radius>
+

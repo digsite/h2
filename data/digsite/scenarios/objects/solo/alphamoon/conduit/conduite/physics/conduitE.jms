@@ -1,0 +1,152 @@
+;### VERSION ###
+8208
+
+;### NODES ###
+1
+;	<name>
+;	<parent node index>
+;	<default rotation <i,j,k,w>>
+;	<default translation <x,y,z>>
+
+;NODE 0
+frame conduitE
+-1
+0.000000	0.000000	0.000000	-1.000000
+0.000000	0.000000	0.000000
+
+;### MATERIALS ###
+1
+;	<name>
+;	<material name>
+
+;MATERIAL 0
+hard_metal_thin_for_shader
+(1) 
+
+;### MARKERS ###
+0
+;	<name>
+;	<node index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### INSTANCE XREF PATHS ###
+0
+;	<path>
+;	<name>
+
+;### INSTANCE MARKERS ###
+0
+;	<name>
+;	<unique identifier>
+;	<path index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+
+;### VERTICES ###
+0
+;	<position>
+;	<normal>
+;	<node influences count>
+;		<node influences <index, weight>>
+;		<...>
+;	<texture coordinate count>
+;		<texture coordinates <u,v>>
+;		<...>
+
+;### TRIANGLES ###
+0
+;	<material index>
+;	<vertex indices <v0,v1,v2>>
+
+;### SPHERES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### BOXES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<width (x)>
+;	<length (y)>
+;	<height (z)>
+
+;### CAPSULES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<height>
+;	<radius>
+
+;### CONVEX SHAPES ###
+1
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<vertex count>
+;	<...vertices>
+
+;CONVEX SHAPE 0
+conduitE_havok
+-1
+0
+0.000000	0.000000	0.000000	-1.000000
+-0.201690	-0.034027	-1.157406
+18
+0.000000	0.000000	-26.786140
+36.349560	-15.056487	-26.786140
+36.349564	15.056476	-26.786140
+15.056486	36.349560	-26.786140
+-15.056479	36.349564	-26.786140
+-36.349560	15.056484	-26.786140
+-36.349564	-15.056480	-26.786140
+-15.056482	-36.349564	-26.786140
+15.056480	-36.349564	-26.786140
+36.349560	-15.056487	26.786140
+36.349564	15.056476	26.003174
+15.056486	36.349560	21.058624
+-15.056479	36.349564	14.866081
+-36.349560	15.056484	14.866081
+-36.349564	-15.056480	14.866081
+-15.056482	-36.349564	14.866081
+15.056480	-36.349564	14.866081
+0.000000	0.000000	14.866081
+
+;### RAGDOLLS ###
+0
+;	<attached index>
+;	<referenced index>
+;	<attached transform>
+;	<reference transform>
+;	<min twist>
+;	<max twist>
+;	<min cone>
+;	<max cone>
+;	<min plane>
+;	<max plane>
+
+;### HINGES ###
+0
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min angle>
+;	<max angle
+
